@@ -1,4 +1,4 @@
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Linmoqian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Linmoqian)](https://github.com/Linmoqian)
 
 🧬 当生物科学遇见人工智能
 
