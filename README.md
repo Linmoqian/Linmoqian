@@ -1,6 +1,5 @@
 <div align="center">
-<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3D0:0099ff,100:00ccff%26height%3D300%26section%3Dheader%26text%3DHi%2520there,%2520I%27m%2520Linmoqian%26fontSize%3D70%26animation%3DfadeIn%26fontAlignY%3D38%26desc%3DBio%2520Sci%2520Student%2520|%20AI%20Developer%20|%20Embedded%20Geek&descAlignY=55&descAlign=62" />
-</div>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Linmoqian&show_icons=true)
 
 <div align="center">
 
