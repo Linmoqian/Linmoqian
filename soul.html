@@ -336,6 +336,60 @@
         spiralSoul.add(flowingParticles);
         console.log('✓ 流动粒子系统创建完成');
 
+        // === 交互系统 ===
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        let isHovering = false;
+
+        // 鼠标移动
+        window.addEventListener('mousemove', (event) => {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+        });
+
+        // 点击效果
+        window.addEventListener('click', () => {
+            if (isHovering) {
+                explodeParticles();
+            }
+        });
+
+        // 粒子爆炸效果
+        function explodeParticles() {
+            const positions = flowingParticles.geometry.attributes.position.array;
+            const velocities = flowingParticles.userData.velocities;
+
+            for (let i = 0; i < velocities.length; i++) {
+                const i3 = i * 3;
+                const burstStrength = 50;
+
+                velocities[i].orbitRadius += (Math.random() - 0.5) * burstStrength;
+                positions[i3] += (Math.random() - 0.5) * burstStrength;
+                positions[i3 + 1] += (Math.random() - 0.5) * burstStrength;
+                positions[i3 + 2] += (Math.random() - 0.5) * burstStrength;
+            }
+
+            flowingParticles.geometry.attributes.position.needsUpdate = true;
+
+            // 1秒后重组
+            setTimeout(() => {
+                resetParticles();
+            }, 1000);
+        }
+
+        // 重置粒子
+        function resetParticles() {
+            const positions = flowingParticles.geometry.attributes.position.array;
+            const velocities = flowingParticles.userData.velocities;
+
+            for (let i = 0; i < velocities.length; i++) {
+                const i3 = i * 3;
+                velocities[i].orbitRadius = 50 + Math.random() * 150;
+            }
+        }
+
+        console.log('✓ 交互系统创建完成');
+
         // === 动画循环 ===
         function animate() {
             requestAnimationFrame(animate);
@@ -369,6 +423,20 @@
             }
 
             flowingParticles.geometry.attributes.position.needsUpdate = true;
+
+            // 悬停检测
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObject(flowingParticles);
+
+            if (intersects.length > 0 && !isHovering) {
+                isHovering = true;
+                document.body.style.cursor = 'pointer';
+                flowingParticles.material.size = 4;
+            } else if (intersects.length === 0 && isHovering) {
+                isHovering = false;
+                document.body.style.cursor = 'default';
+                flowingParticles.material.size = 2;
+            }
 
             controls.update();
             renderer.render(scene, camera);
