@@ -14,29 +14,6 @@
 
 </div>
 
-<style>
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-@keyframes slideIn {
-  0% { opacity: 0; transform: translateY(-15px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-@keyframes pulse {
-  0%, 100% { opacity: 0.7; }
-  50% { opacity: 1; text-shadow: 0 0 10px rgba(124, 58, 237, 0.5); }
-}
-.typewriter-quote {
-  display: inline-block;
-  animation: slideIn 0.8s ease-out forwards, pulse 3s ease-in-out infinite;
-}
-.fade-float-quote {
-  display: inline-block;
-  animation: fadeIn 1.2s ease-out forwards;
-}
-</style>
-
 <br>
 
 ## Quick Navigation
@@ -106,7 +83,7 @@
 
 ![My Avatar](assets/images/avatar.jpg)
 
-> <span class="typewriter-quote">**"Boundaries are not endings, but beginnings."**</span>
+> **"Boundaries are not endings, but beginnings."**
 
 <div align="center">
 
@@ -202,7 +179,7 @@ The true miracle happens in that boundary-blurring, collision-stirring sea. Ther
 
 ### Reflections
 
-> <span class="fade-float-quote">**"The starry heavens above and the moral law within, worth contemplating."**</span>
+> **"The starry heavens above and the moral law within, worth contemplating."**
 
 Kant said, two things fill the mind with ever-increasing awe—
 **The starry heavens above**: The vastness and order of the universe, the motion and laws of all things
@@ -302,7 +279,7 @@ React · STM32 · OpenCV
 
 ## Engineering Practice
 
-> <span class="typewriter-quote">**"Code is written for humans to read, only incidentally for machines to execute."**</span>
+> **"Code is written for humans to read, only incidentally for machines to execute."**
 
 I believe elegant code is the best documentation, and standardized processes are the cornerstone of team collaboration.
 
@@ -372,7 +349,7 @@ Conventional Commits
 
 main — Production
 develop — Development branch
-feature/* — Feature development
+feature/*— Feature development
 hotfix/* — Emergency fixes
 
 **Commit Convention**
@@ -698,23 +675,9 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-<style>
-@keyframes float {
-  0%, 100% { transform: translateY(0px); text-shadow: 0 0 5px rgba(124, 58, 237, 0.3); }
-  50% { transform: translateY(-8px); text-shadow: 0 8px 16px rgba(124, 58, 237, 0.4); }
-}
-.floating-quote {
-  animation: float 4s ease-in-out infinite;
-  display: inline-block;
-}
-</style>
-
-> <span class="floating-quote">**"Where biology meets code,**</span>
-> <span class="floating-quote" style="animation-delay: 0.2s;">**Where reason meets creation,**</span>
-> <span class="floating-quote" style="animation-delay: 0.4s;">**Where known meets unknown.**</span>
+> **"Where biology meets code,** **Where reason meets creation,** **Where known meets unknown.****
 >
-> <span class="floating-quote" style="animation-delay: 0.6s;">**Not a battlefield of choice,**</span>
-> <span class="floating-quote" style="animation-delay: 0.8s;">**But the home of the soul."**</span>
+> **"Not a battlefield of choice,** **But the home of the soul."**
 
 ---
 
