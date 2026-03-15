@@ -14,18 +14,83 @@
 
 </div>
 
+<style>
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes slideIn {
+  0% { opacity: 0; transform: translateY(-15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; text-shadow: 0 0 10px rgba(124, 58, 237, 0.5); }
+}
+.typewriter-quote {
+  display: inline-block;
+  animation: slideIn 0.8s ease-out forwards, pulse 3s ease-in-out infinite;
+}
+.fade-float-quote {
+  display: inline-block;
+  animation: fadeIn 1.2s ease-out forwards;
+}
+</style>
+
 <br>
 
 ## 快速导航
 
 <div align="center">
 
-[![About](https://img.shields.io/badge/关于我-7c3aed?style=flat-square)](#-关于-me)
-[![Identity](https://img.shields.io/badge/我的身份-7c3aed?style=flat-square)](#-我的身份)
-[![Skills](https://img.shields.io/badge/热爱的领域-7c3aed?style=flat-square)](#-热爱的领域)
-[![Engineering](https://img.shields.io/badge/工程实践-7c3aed?style=flat-square)](#-工程实践)
-[![Projects](https://img.shields.io/badge/精选项目-7c3aed?style=flat-square)](#-精选项目)
-[![Contact](https://img.shields.io/badge/联系方式-7c3aed?style=flat-square)](#-联系方式)
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<a href="#-关于-me">
+<img src="https://img.shields.io/badge/01_关于我-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=8" alt="关于我">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-我的身份">
+<img src="https://img.shields.io/badge/02_我的身份-6d28d9?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white&logoSize=8" alt="我的身份">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-热爱的领域">
+<img src="https://img.shields.io/badge/03_热爱的领域-5b21b6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white&logoSize=8" alt="热爱的领域">
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+<a href="#-工程实践">
+<img src="https://img.shields.io/badge/04_工程实践-4c1d95?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjEiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgcng9IjIiLz48bGluZSB4MT0iOCIgeTE9IjkiIHgyPSI4IiB5Mj0iMTUiLz48cGF0aCBkPSJNOCA5djgiLz48cGF0aCBkPSJNMTYgOXY4Ii8+PHBhdGggZD0iTTEyIDE1djMiIvPjwvc3ZnPg==&logoColor=white&logoSize=8" alt="工程实践">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-精选项目">
+<img src="https://img.shields.io/badge/05_精选项目-3d0f87?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white&logoSize=8" alt="精选项目">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-联系方式">
+<img src="https://img.shields.io/badge/06_联系方式-2e1065?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgeD0iMiIgeT0iNSIgcng9IjIiLz48bGluZSB4MT0iMjIiIHkxPSIxNSIgeDI9IjIyIiB5Mj0iMTUiLz48cGF0aCBkPSJNMTAuNSA4LjVsMy0zIi8+PHBhdGggZD0iTTEzLjUgOC41bDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=8" alt="联系方式">
+</a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -41,7 +106,13 @@
 
 ![陈林锋的个人头像](assets/images/avatar.jpg)
 
-> **"边界不是终点，而是起点。"**
+> <span class="typewriter-quote">**"边界不是终点，而是起点。"**</span>
+
+<div align="center">
+
+[![3D展示](https://img.shields.io/badge/🌌_探索灵魂空间-7c3aed?style=for-the-badge)](soul.html)
+
+</div>
 
 我是一名**生物科学**专业的学生，但我的灵魂从不承认边界。
 
@@ -131,7 +202,7 @@
 
 ### 思索
 
-> **"头顶璀璨星空，心中深邃律令。"**
+> <span class="fade-float-quote">**"头顶璀璨星空，心中深邃律令。"**</span>
 
 康德言，有二物愈久愈令人敬畏—
 **头顶之星空**：宇宙之浩瀚与秩序，万物之运行与法则
@@ -231,7 +302,7 @@ React · STM32 · OpenCV
 
 ## 工程实践
 
-> **"代码为人而写，机器偶一执行。"**
+> <span class="typewriter-quote">**"代码为人而写，机器偶一执行。"**</span>
 
 我相信优雅的代码是最好的文档，规范的流程是团队协作的基石。
 
@@ -627,12 +698,23 @@ AI 科学挑战赛
 
 ---
 
-> **"生物学遇见代码，**
-> **理性遇见创造，**
-> **已知遇见未知。**
+<style>
+@keyframes float {
+  0%, 100% { transform: translateY(0px); text-shadow: 0 0 5px rgba(124, 58, 237, 0.3); }
+  50% { transform: translateY(-8px); text-shadow: 0 8px 16px rgba(124, 58, 237, 0.4); }
+}
+.floating-quote {
+  animation: float 4s ease-in-out infinite;
+  display: inline-block;
+}
+</style>
+
+> <span class="floating-quote">**"生物学遇见代码，**</span>
+> <span class="floating-quote" style="animation-delay: 0.2s;">**理性遇见创造，**</span>
+> <span class="floating-quote" style="animation-delay: 0.4s;">**已知遇见未知。**</span>
 >
-> **非选择的战场，**
-> **乃灵魂的归处。"**
+> <span class="floating-quote" style="animation-delay: 0.6s;">**非选择的战场，**</span>
+> <span class="floating-quote" style="animation-delay: 0.8s;">**乃灵魂的归处。"**</span>
 
 ---
 

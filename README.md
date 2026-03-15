@@ -14,18 +14,83 @@
 
 </div>
 
+<style>
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes slideIn {
+  0% { opacity: 0; transform: translateY(-15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; text-shadow: 0 0 10px rgba(124, 58, 237, 0.5); }
+}
+.typewriter-quote {
+  display: inline-block;
+  animation: slideIn 0.8s ease-out forwards, pulse 3s ease-in-out infinite;
+}
+.fade-float-quote {
+  display: inline-block;
+  animation: fadeIn 1.2s ease-out forwards;
+}
+</style>
+
 <br>
 
 ## Quick Navigation
 
 <div align="center">
 
-[![About](https://img.shields.io/badge/About_Me-7c3aed?style=flat-square)](#-about-me)
-[![Identity](https://img.shields.io/badge/My_Identity-7c3aed?style=flat-square)](#-my-identity)
-[![Skills](https://img.shields.io/badge/Areas_of_Interest-7c3aed?style=flat-square)](#-areas-of-interest)
-[![Engineering](https://img.shields.io/badge/Engineering_Practice-7c3aed?style=flat-square)](#-engineering-practice)
-[![Projects](https://img.shields.io/badge/Featured_Projects-7c3aed?style=flat-square)](#-featured-projects)
-[![Contact](https://img.shields.io/badge/Contact-7c3aed?style=flat-square)](#-contact)
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<a href="#-about-me">
+<img src="https://img.shields.io/badge/01_About_Me-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=8" alt="About Me">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-my-identity">
+<img src="https://img.shields.io/badge/02_My_Identity-6d28d9?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white&logoSize=8" alt="My Identity">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-areas-of-interest">
+<img src="https://img.shields.io/badge/03_Areas_of_Interest-5b21b6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white&logoSize=8" alt="Areas of Interest">
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+<a href="#-engineering-practice">
+<img src="https://img.shields.io/badge/04_Engineering_Practice-4c1d95?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjIiIHk9IjEiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgcng9IjIiLz48bGluZSB4MT0iOCIgeTE9IjkiIHgyPSI4IiB5Mj0iMTUiLz48cGF0aCBkPSJNOCA5djgiLz48cGF0aCBkPSJNMTYgOXY4Ii8+PHBhdGggZD0iTTEyIDE1djIiLz48L3N2Zz4=&logoColor=white&logoSize=8" alt="Engineering Practice">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-featured-projects">
+<img src="https://img.shields.io/badge/05_Featured_Projects-3d0f87?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white&logoSize=8" alt="Featured Projects">
+</a>
+
+</td>
+<td width="33%" valign="top">
+
+<a href="#-contact">
+<img src="https://img.shields.io/badge/06_Contact-2e1065?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgeD0iMiIgeT0iNSIgcng9IjIiLz48bGluZSB4MT0iMjIiIHkxPSIxNSIgeDI9IjIyIiB5Mj0iMTUiLz48cGF0aCBkPSJNMTAuNSA4LjVsMy0zIi8+PHBhdGggZD0iTTEzLjUgOC41bDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=8" alt="Contact">
+</a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -41,7 +106,13 @@
 
 ![My Avatar](assets/images/avatar.jpg)
 
-> **"Boundaries are not endings, but beginnings."**
+> <span class="typewriter-quote">**"Boundaries are not endings, but beginnings."**</span>
+
+<div align="center">
+
+[![3D Soul](https://img.shields.io/badge/🌌_Explore_Soul_Space-7c3aed?style=for-the-badge)](soul.html)
+
+</div>
 
 I am a **Bioscience** student, but my soul acknowledges no boundaries.
 
@@ -131,7 +202,7 @@ The true miracle happens in that boundary-blurring, collision-stirring sea. Ther
 
 ### Reflections
 
-> **"The starry heavens above and the moral law within, worth contemplating."**
+> <span class="fade-float-quote">**"The starry heavens above and the moral law within, worth contemplating."**</span>
 
 Kant said, two things fill the mind with ever-increasing awe—
 **The starry heavens above**: The vastness and order of the universe, the motion and laws of all things
@@ -231,7 +302,7 @@ React · STM32 · OpenCV
 
 ## Engineering Practice
 
-> **"Code is written for humans to read, only incidentally for machines to execute."**
+> <span class="typewriter-quote">**"Code is written for humans to read, only incidentally for machines to execute."**</span>
 
 I believe elegant code is the best documentation, and standardized processes are the cornerstone of team collaboration.
 
@@ -627,12 +698,23 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-> **"Where biology meets code,**
-> **Where reason meets creation,**
-> **Where known meets unknown.**
+<style>
+@keyframes float {
+  0%, 100% { transform: translateY(0px); text-shadow: 0 0 5px rgba(124, 58, 237, 0.3); }
+  50% { transform: translateY(-8px); text-shadow: 0 8px 16px rgba(124, 58, 237, 0.4); }
+}
+.floating-quote {
+  animation: float 4s ease-in-out infinite;
+  display: inline-block;
+}
+</style>
+
+> <span class="floating-quote">**"Where biology meets code,**</span>
+> <span class="floating-quote" style="animation-delay: 0.2s;">**Where reason meets creation,**</span>
+> <span class="floating-quote" style="animation-delay: 0.4s;">**Where known meets unknown.**</span>
 >
-> **Not a battlefield of choice,**
-> **But the home of the soul."**
+> <span class="floating-quote" style="animation-delay: 0.6s;">**Not a battlefield of choice,**</span>
+> <span class="floating-quote" style="animation-delay: 0.8s;">**But the home of the soul."**</span>
 
 ---
 
