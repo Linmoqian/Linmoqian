@@ -82,11 +82,58 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
         });
 
-        // 隐藏加载提示
-        loading.style.opacity = '0';
-        setTimeout(() => loading.remove(), 500);
+        // 隐藏加载提示（在渐进式加载完成后）
+        // loading.style.opacity = '0';
+        // setTimeout(() => loading.remove(), 500);
 
         console.log('✓ 场景初始化完成');
+
+        // === 性能优化 ===
+        let frameCount = 0;
+        setInterval(() => {
+            const fps = frameCount;
+            frameCount = 0;
+            if (fps < 30) {
+                console.warn('低帧率:', fps);
+            }
+        }, 1000);
+
+        // === 渐进式加载 ===
+        let starField, spiralSoul, flowingParticles;
+
+        async function loadProgressively() {
+            // 先显示星空
+            starField = createStarField();
+            await new Promise(r => setTimeout(r, 100));
+
+            // 再显示螺旋
+            spiralSoul = createSpiralSoul();
+            await new Promise(r => setTimeout(r, 100));
+
+            // 最后显示粒子
+            flowingParticles = createFlowingParticles();
+            spiralSoul.add(flowingParticles);
+
+            // 隐藏加载提示
+            loading.style.opacity = '0';
+            setTimeout(() => loading.remove(), 500);
+
+            // 开始动画
+            animate();
+        }
+
+        // === 快捷键 ===
+        window.addEventListener('keydown', (event) => {
+            switch(event.key) {
+                case 'r': // 重置视角
+                    camera.position.set(0, 0, 500);
+                    controls.reset();
+                    break;
+                case ' ': // 空格爆炸
+                    if (flowingParticles) explodeParticles();
+                    break;
+            }
+        });
 
         // === 星空背景 ===
         function createStarField() {
@@ -148,8 +195,9 @@
             return stars;
         }
 
-        const starField = createStarField();
-        console.log('✓ 星空背景创建完成');
+        // 星空背景由渐进式加载调用
+        // const starField = createStarField();
+        console.log('✓ 星空背景函数定义完成');
 
         // === DNA螺旋灵魂形态 ===
         function createSpiralSoul() {
@@ -263,8 +311,9 @@
             return group;
         }
 
-        const spiralSoul = createSpiralSoul();
-        console.log('✓ 螺旋灵魂形态创建完成');
+        // 螺旋形态由渐进式加载调用
+        // const spiralSoul = createSpiralSoul();
+        console.log('✓ 螺旋形态函数定义完成');
 
         // === 流动粒子系统 ===
         function createFlowingParticles() {
@@ -332,9 +381,10 @@
             return particles;
         }
 
-        const flowingParticles = createFlowingParticles();
-        spiralSoul.add(flowingParticles);
-        console.log('✓ 流动粒子系统创建完成');
+        // 粒子系统由渐进式加载调用
+        // const flowingParticles = createFlowingParticles();
+        // spiralSoul.add(flowingParticles);
+        console.log('✓ 流动粒子系统函数定义完成');
 
         // === 交互系统 ===
         const raycaster = new THREE.Raycaster();
@@ -393,6 +443,7 @@
         // === 动画循环 ===
         function animate() {
             requestAnimationFrame(animate);
+            frameCount++;
 
             // 星空旋转
             starField.rotation.x += starField.userData.rotationSpeed.x;
@@ -442,7 +493,8 @@
             renderer.render(scene, camera);
         }
 
-        animate();
+        // 启动渐进式加载
+        loadProgressively();
     </script>
 </body>
 </html>
