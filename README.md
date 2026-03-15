@@ -1,7 +1,8 @@
 <div align="center">
 
-[![English](https://img.shields.io/badge/lang-English-7c3aed?style=for-the-badge)](README.md)
-[![中文](https://img.shields.io/badge/lang-中文-a78bfa?style=for-the-badge)](README-ZH.md)
+# 🌐 Select Language / 选择语言
+
+**[English](README.md)** | **[中文](README-ZH.md)**
 
 <br>
 
@@ -366,6 +367,14 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ⭐ **Star** · 🔔 **Follow** · 💬 **Connect**
 
-<img src="https://raw.githubusercontent.com/Linmoqian/Linmoqian/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation - Footer" loading="lazy" style="max-width: 100%;" />
+---
+
+## 🌐 Language / 语言
+
+**[English Version](README.md)** | **[中文版本](README-ZH.md)**
+
+---
+
+<img src="https://raw.githubusercontent.com/Linmoqian/Linmoqian/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation - Footer" loading="lazy" style="max-width: 100%;" />
 
 </div>
