@@ -27,17 +27,9 @@
   0%, 100% { opacity: 0.7; }
   50% { opacity: 1; text-shadow: 0 0 10px rgba(124, 58, 237, 0.5); }
 }
-@keyframes float {
-  0%, 100% { transform: translateY(0px); text-shadow: 0 0 5px rgba(124, 58, 237, 0.3); }
-  50% { transform: translateY(-8px); text-shadow: 0 8px 16px rgba(124, 58, 237, 0.4); }
-}
 .typewriter-quote {
   display: inline-block;
   animation: slideIn 0.8s ease-out forwards, pulse 3s ease-in-out infinite;
-}
-.floating-quote {
-  animation: float 4s ease-in-out infinite;
-  display: inline-block;
 }
 .fade-float-quote {
   display: inline-block;
