@@ -112,6 +112,14 @@
 
 [![3D Soul](https://img.shields.io/badge/🌌_Explore_Soul_Space-7c3aed?style=for-the-badge)](https://linmoqian.github.io/Linmoqian/soul.html)
 
+<br>
+
+**🌌 Soul Space Preview**
+
+<img src="assets/soul-preview.gif" alt="Soul Space 3D Animation Preview" width="100%" max-width="800px">
+
+*[Click above to experience the full 3D interactive version](https://linmoqian.github.io/Linmoqian/soul.html)*
+
 </div>
 
 I am a **Bioscience** student, but my soul acknowledges no boundaries.
