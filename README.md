@@ -1,15 +1,16 @@
 <div align="center">
 
-[![English](https://img.shields.io/badge/English_Version-7c3aed?style=for-the-badge)](README.md)
-[![中文](https://img.shields.io/badge/中文版本-7c3aed?style=for-the-badge)](README-ZH.md)
+<h3>Select Language / 选择语言</h3>
+
+**[English](README.md)** | **[中文](README-ZH.md)**
 
 <br>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&width=700&height=110&lines=Linmoqian;Biology+%2B+Tech+%3D+Infinite+Possibilities" alt="Typing SVG" />
 
-[![Website](https://img.shields.io/badge/-linfengchen.com-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoSize=auto)](https://linfengchen.com)
-[![GitHub](https://img.shields.io/badge/Linmoqian-333333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Linmoqian)
-[![Email](https://img.shields.io/badge-smkxxyclf@stu.scau.edu.cn-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
+[![Website](https://img.shields.io/badge/-linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://linfengchen.com)
+[![GitHub](https://img.shields.io/badge/Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
+[![Email](https://img.shields.io/badge/smkxxyclf@stu.scau.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
 
 </div>
 
@@ -19,10 +20,12 @@
 
 <div align="center">
 
-[![About](https://img.shields.io/badge/About_Me-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](#-about-me)
-[![Projects](https://img.shields.io/badge/Featured_Projects-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yMi4xOSA4LjQ2NmwtMy40MjEtMy40MTljLS4zNzgtLjM3Ny0uOTkyLS4zNzctMS4zNyAwbC0uODQzLjg0NEwxNy4xIDExLjg1bC0zLjQyMiAzLjQxOWMtLjM3Ny4zNzctLjk5Mi4zNzctMS4zNyAwbC0uODQ0LS44NDQtLjg0NC44NDRjLS4zNzcuMzc3LS45OTIuMzc3LTEuMzY5IDBMMi45IDguNDY2Yy0uMzc3LS4zNzctLjM3Ny0uOTkyIDAtMS4zNjlMNi4zODggMy42M2MuMzc3LS4zNzcuOTkyLS4zNzcgMS4zNjkgMGw4LjQ0IDguNDM5IDMuNDIxLTMuNDJjLjM3Ny0uMzc3Ljk5Mi0uMzc3IDEuMzY5IDB6TTMuOTEgMTAuNTlsNi40NCA2LjQzOWMuMzc3LjM3Ny45OTIuMzc3IDEuMzY5IDBsNi40NDktNi40NGMuMzc3LS4zNzcuMzc3LS45OTIgMC0xLjM2OWwtNi40NDktNi40NDljLS4zNzctLjM3Ny0uOTkyLS4zNzctMS4zNjkgMExzLjU1IDEuOTUyIDMuOTEgMy4yMnoiLz48L3N2Zz4=&logoColor=white&logoSize=14)](#-featured-projects)
-[![Skills](https://img.shields.io/badge/Areas_of_Interest-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white&logoSize=14)](#-areas-of-interest)
-[![Contact](https://img.shields.io/badge/Contact-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgeD0iMiIgeT0iNSIgcng9IjIiLz48bGluZSB4MT0iMjIiIHkxPSIxNSIgeDI9IjIyIiB5Mj0iMTUiLz48cGF0aCBkPSJNMTAuNSA4LjV2NiIvPjxwYXRoIGQ9Ik0xMy41IDExLjVsLTMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](#-contact)
+[![About](https://img.shields.io/badge/About_Me-7c3aed?style=flat-square)](#-about-me)
+[![Identity](https://img.shields.io/badge/My_Identity-7c3aed?style=flat-square)](#-my-identity)
+[![Skills](https://img.shields.io/badge/Areas_of_Interest-7c3aed?style=flat-square)](#-areas-of-interest)
+[![Engineering](https://img.shields.io/badge/Engineering_Practice-7c3aed?style=flat-square)](#-engineering-practice)
+[![Projects](https://img.shields.io/badge/Featured_Projects-7c3aed?style=flat-square)](#-featured-projects)
+[![Contact](https://img.shields.io/badge/Contact-7c3aed?style=flat-square)](#-contact)
 
 </div>
 
@@ -52,46 +55,46 @@ At twenty, I stand at the intersection of two worlds—on one side, the miracle 
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Education](https://img.shields.io/badge/-B.S._Bioscience-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://scau.edu.cn)
+[![Education](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://scau.edu.cn)
 
-**South China Agricultural University**
-2024-2028
+**B.S. Bioscience**
+South China Agricultural University · 2024-2028
 
 </div>
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Leadership](https://img.shields.io/badge/-AI_Association-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian)
+[![Leadership](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian)
 
-**President & Tech Lead**
-Taurus Robotics Team
+**AI Association President**
+Tech Lead · Taurus Robotics Team
 
 </div>
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Sports](https://img.shields.io/badge/-Badminton_Captain-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNSIvPjxwYXRoIGQ9Ik0xMiAxM3Y5Ii8+PHBhdGggZD0iTTEyIDE4bDQgNCIvPjxwYXRoIGQ9Ik0xMiAxOGwtNCA0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian)
+[![Sports](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNSIvPjxwYXRoIGQ9Ik0xMiAxM3Y5Ii8+PHBhdGggZD0iTTEyIDE4bDQgNCIvPjxwYXRoIGQ9Ik0xMiAxOGwtNCA0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian)
 
-**Media & Creative Dept**
-Video Editing
+**Badminton Captain**
+Media & Creative Dept · Video Editing
 
 </div>
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Robotics](https://img.shields.io/badge/-Robotics_Team-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian)
+[![Robotics](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian)
 
 **Taurus Robotics**
 Smart Hardware Development
@@ -142,17 +145,87 @@ Between exploring life's mysteries and writing code, I often pause to gaze at th
 
 **At the intersection of life and code, I found these directions:**
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,react,nextjs,ros,stm32" alt="skills" />
-</p>
+<div align="center">
 
-| Domain | Interest |
-|:---|:---:|
-| AI for Science | ██████████ 100% |
-| Bioinformatics | ██████████ 95% |
-| Computer Vision | ████████░ 85% |
-| Robotics Control | ████████░ 85% |
-| Smart Hardware | ███████░ 80% |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![AI for Science](https://img.shields.io/badge/AI_for_Science-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**100%** █████████████████████
+
+Scientific Computing & Deep Learning
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Bioinformatics](https://img.shields.io/badge/Bioinformatics-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**95%** ██████████████████░░
+
+Genomics & Data Analysis
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Computer Vision](https://img.shields.io/badge/Computer_Vision-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**85%** ████████████████░░░░
+
+Image Processing & Object Detection
+
+</div>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Robotics](https://img.shields.io/badge/Robotics_Control-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**85%** ████████████████░░░░
+
+Motion Planning & Control Systems
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Smart Hardware](https://img.shields.io/badge/Smart_Hardware-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**80%** ███████████████░░░░░
+
+Embedded & IoT Systems
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Tech Stack](https://img.shields.io/badge/Tech_Stack-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+Python · PyTorch · ROS
+React · STM32 · OpenCV
+
+</div>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -162,59 +235,85 @@ Between exploring life's mysteries and writing code, I often pause to gaze at th
 
 I believe elegant code is the best documentation, and standardized processes are the cornerstone of team collaboration.
 
-### Code Standards
+<div align="center">
 
-| Language | Standard | Tools |
-|:---|:---|:---|
-| Python | PEP 8 | `black`, `ruff`, `mypy` |
-| C++ | Google C++ Style | `clang-format`, `clang-tidy` |
-| JavaScript/TypeScript | Airbnb Style Guide | `ESLint`, `Prettier` |
-| React | React Official | `react-devtools` |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Testing Philosophy
+<div align="center">
 
-```
-Testing is not a burden, but a lighthouse of security in late nights.
+[![Code Standards](https://img.shields.io/badge/Code_Standards-7c3aed?style=flat-square)](https://github.com/Linmoqian)
 
-├── Unit Testing  —— pytest/jest, coverage > 80%
-├── Integration Test  —— API end-to-end verification
-├── Performance Test  —— Stress testing, benchmarking
-└── TDD Practice  —— Red, then Green, then Refactor
-```
+**Python** — PEP 8
+**C++** — Google C++ Style
+**JS/TS** — Airbnb Style Guide
+**React** — React Official
 
-### Documentation
+`black` · `ruff` · `mypy`
+`clang-format` · `ESLint` · `Prettier`
 
-| Doc Type | Tools/Standards |
-|:---|:---|
-| API Docs | Sphinx / JSDoc |
-| Deployment | Docker Compose / README |
-| Comments | Google Style Docstrings |
-| Changelog | CHANGELOG.md (Conventional Commits) |
+</div>
+</td>
+<td width="50%" valign="top">
 
-### Version Control
+<div align="center">
 
-```
-Git Flow Workflow
-├── main      —— Production
-├── develop   —— Development branch
-├── feature/* —— Feature development
-└── hotfix/*  —— Emergency fixes
+[![Testing](https://img.shields.io/badge/Testing_Philosophy-7c3aed?style=flat-square)](https://github.com/Linmoqian)
 
-Commit Convention: Conventional Commits (Chinese descriptions)
-feat: New feature
-fix: Bug fix
-docs: Documentation
-refactor: Refactoring
-test: Testing
-chore: Build/tools
-```
+**A lighthouse of security in late nights**
 
-### Debugging & Optimization
+Unit Testing — pytest/jest
+Integration Test — API e2e verification
+Performance Test — Stress & benchmarking
+TDD Practice — Red, Green, Refactor
 
-- **Performance**: `py-spy` / `pprof` / Chrome DevTools
-- **Memory Debug**: `memray` / `valgrind`
-- **Logging**: Structured logging (JSON format)
-- **Error Tracking**: Sentry / Self-built monitoring
+Coverage > 80%
+
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+[![Documentation](https://img.shields.io/badge/Documentation-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**Docs as Code**
+
+API Docs — Sphinx / JSDoc
+Deployment — Docker Compose
+Comments — Google Docstrings
+Changelog — CHANGELOG.md
+
+Conventional Commits
+
+</div>
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+[![Version Control](https://img.shields.io/badge/Version_Control-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**Git Flow Workflow**
+
+main — Production
+develop — Development branch
+feature/* — Feature development
+hotfix/* — Emergency fixes
+
+**Commit Convention**
+feat · fix · docs · refactor
+test · chore
+
+</div>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -222,9 +321,70 @@ chore: Build/tools
 
 <div align="center">
 
-| Contributions | PRs | Repos | Reviews | Bugs |
-|:---:|:---:|:---:|:---:|:---:|
-| **1,200+**<br/>Total Contributions | **50+**<br/>PRs Merged | **15+**<br/>Active Repos | **100+**<br/>Code Reviews | **30+**<br/>Bug Fixes |
+<table>
+<tr>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Contributions](https://img.shields.io/badge/Contributions-1%2C200%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**1,200+**
+
+Commits & PRs
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![PRs](https://img.shields.io/badge/PRs-50%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**50+**
+
+Features & Fixes
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Repos](https://img.shields.io/badge/Repos-15%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**15+**
+
+Projects Involved
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Reviews](https://img.shields.io/badge/Reviews-100%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**100+**
+
+Quality Assurance
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Bugs](https://img.shields.io/badge/Bugs-30%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**30+**
+
+Issue Resolution
+
+</div>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -234,9 +394,70 @@ chore: Build/tools
 
 <div align="center">
 
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-|:---:|:---:|:---:|:---:|:---:|
-| **iGEM**<br>Global Gold Medal | **RoboMaster**<br>National 1st Prize | **MCM/ICM**<br>M Prize | **AI for Science**<br>3rd Prize | **Life Sciences**<br>Ongoing |
+<table>
+<tr>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![iGEM](https://img.shields.io/badge/iGEM-Global_Gold-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**Global Gold Medal**
+
+Synthetic Biology Competition
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![RoboMaster](https://img.shields.io/badge/RoboMaster-National_1st-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**National 1st Prize**
+
+Robotics Competition
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![MCM/ICM](https://img.shields.io/badge/MCM_ICM-M_Prize-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**M Prize**
+
+Mathematical Modeling
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![AI for Science](https://img.shields.io/badge/AI_for_Science-3rd_Prize-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**3rd Prize**
+
+AI Science Challenge
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Life Sciences](https://img.shields.io/badge/Life_Sciences-Ongoing-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**Ongoing**
+
+Life Sciences Competition
+
+</div>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -246,11 +467,11 @@ chore: Build/tools
 
 <div align="center">
 
-[![Soybean Phenotype](https://img.shields.io/badge/Soybean_Phenotype-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVNMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white&logoSize=14)](https://github.com/Linmoqian/soybean-phenotype)
-[![Harvesting Robot](https://img.shields.io/badge/Harvesting_Robot-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](https://github.com/Linmoqian/harvesting-robot)
-[![DNA Expression](https://img.shields.io/badge/DNA_Expression-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yIDEyczo2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48cGF0aCBkPSJNMiAxMnM2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48L3N2Zz4=&logoColor=white&logoSize=14)](https://github.com/Linmoqian/dna-expression)
-[![AI Website](https://img.shields.io/badge/AI_Website-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMnExNS4zIDE1LjMgMCAwIDEgMTAgMTAiLz48cGF0aCBkPSJNMTIgMjJxMTUuMy0xNS4zIDAtMCAxLTEwLTEwIi8+PC9zdmc+&logoColor=white&logoSize=14)](https://github.com/Linmoqian/ai-association-website)
-[![LLM Robot Arm](https://img.shields.io/badge/LLM_Robot_Arm-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgcng9IjIiLz48cmVjdCB4PSIxNSIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiByeD0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSI1IiByPSIyIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTYgMTB2NCIvPjxwYXRoIGQ9Ik0xOCAxMHY0Ii8+PC9zdmc+&logoColor=white&logoSize=14)](https://github.com/Linmoqian/llm-robotic-arm)
+[![Soybean Phenotype](https://img.shields.io/badge/Soybean_Phenotype-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/soybean-phenotype)
+[![Harvesting Robot](https://img.shields.io/badge/Harvesting_Robot-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian/harvesting-robot)
+[![DNA Expression](https://img.shields.io/badge/DNA_Expression-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yIDEyczo2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48cGF0aCBkPSJNMiAxMnM2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/dna-expression)
+[![AI Website](https://img.shields.io/badge/AI_Website-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMnExNS4zIDE1LjMgMCAwIDEgMTAgMTAiLz48cGF0aCBkPSJNMTIgMjJxMTUuMy0xNS4zIDAgMCAxLTEwLTEwIi8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/ai-association-website)
+[![LLM Robot Arm](https://img.shields.io/badge/LLM_Robot_Arm-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgcng9IjIiLz48cmVjdCB4PSIxNSIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiByeD0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSI1IiByPSIyIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTYgMTB2NCIvPjxwYXRoIGQ9Ik0xOCAxMHY0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/llm-robotic-arm)
 
 </div>
 
@@ -275,7 +496,7 @@ An agricultural vision recognition system based on improved YOLO, enabling machi
 | Dataset Size | 10,000+ labeled samples |
 
 - **Tech Stack**: Python, PyTorch, YOLOv8, OpenCV
-- **[Documentation](https://github.com/Linmoqian/soybean-phenotype/blob/main/docs/README.md)** · **[Source Code](https://github.com/Linmoqian/soybean-phenotype)**
+- **[Source Code](https://github.com/Linmoqian/soybean-phenotype)**
 
 </details>
 
@@ -298,7 +519,7 @@ An intelligent harvesting robot based on ROS2, finding the perfect balance betwe
 | Degrees of Freedom | 6-DOF |
 
 - **Tech Stack**: ROS2, Python, OpenCV, MoveIt, STM32
-- **[Documentation](https://github.com/Linmoqian/harvesting-robot/blob/main/docs/README.md)** · **[Source Code](https://github.com/Linmoqian/harvesting-robot)**
+- **[Source Code](https://github.com/Linmoqian/harvesting-robot)**
 
 </details>
 
@@ -321,7 +542,7 @@ A CNN-based DNA sequence expression prediction model, attempting to understand t
 | Inference Time | < 10ms |
 
 - **Tech Stack**: Python, TensorFlow, CNN, Biopython
-- **[Documentation](https://github.com/Linmoqian/dna-expression/blob/main/docs/README.md)** · **[Source Code](https://github.com/Linmoqian/dna-expression)**
+- **[Source Code](https://github.com/Linmoqian/dna-expression)**
 
 </details>
 
@@ -344,7 +565,7 @@ South China Agricultural University AI Association official website, building br
 | Responsive Design | Fully compatible |
 
 - **Tech Stack**: Next.js, React, TypeScript, Tailwind CSS, Ollama
-- **[Visit](https://scauaiu.xyz)** · **[Documentation](https://github.com/Linmoqian/ai-association-website/blob/main/docs/README.md)** · **[Source Code](https://github.com/Linmoqian/ai-association-website)**
+- **[Visit](https://scauaiu.xyz)** · **[Source Code](https://github.com/Linmoqian/ai-association-website)**
 
 </details>
 
@@ -367,7 +588,7 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 | Supported Models | Llama 3, Qwen 2.5 |
 
 - **Tech Stack**: LeRobot, Ollama, Python, ROS2
-- **[Documentation](https://github.com/Linmoqian/llm-robotic-arm/blob/main/docs/README.md)** · **[Source Code](https://github.com/Linmoqian/llm-robotic-arm)**
+- **[Source Code](https://github.com/Linmoqian/llm-robotic-arm)**
 
 </details>
 
@@ -396,7 +617,7 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 [![Gmail](https://img.shields.io/badge/smkxxyclf@stu.scau.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
 [![QQ Mail](https://img.shields.io/badge/3047076929@qq.com-12B7F5?style=flat-square&logo=tencentqq&logoColor=white)](mailto:3047076929@qq.com)
-[![Website](https://img.shields.io/badge/linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](https://linfengchen.com)
+[![Website](https://img.shields.io/badge/linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://linfengchen.com)
 
 </div>
 

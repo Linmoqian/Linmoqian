@@ -1,15 +1,16 @@
 <div align="center">
 
-[![English](https://img.shields.io/badge/Switch_to_English-7c3aed?style=for-the-badge)](README.md)
-[![中文](https://img.shields.io/badge/切换为中文-7c3aed?style=for-the-badge)](README-ZH.md)
+<h3>选择语言 / Select Language</h3>
+
+**[English](README.md)** | **[中文](README-ZH.md)**
 
 <br>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&width=700&height=110&lines=Linmoqian;生物+%2B+技术+%3D+无限可能" alt="Typing SVG" />
 
-[![Website](https://img.shields.io/badge/-linfengchen.com-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3xPSj0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoSize=auto)](https://linfengchen.com)
-[![GitHub](https://img.shields.io/badge/Linmoqian-333333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Linmoqian)
-[![Email](https://img.shields.io/badge-smkxxyclf@stu.scau.edu.cn-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
+[![Website](https://img.shields.io/badge/-linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://linfengchen.com)
+[![GitHub](https://img.shields.io/badge/Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
+[![Email](https://img.shields.io/badge/smkxxyclf@stu.scau.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
 
 </div>
 
@@ -19,10 +20,12 @@
 
 <div align="center">
 
-[![About](https://img.shields.io/badge/关于我-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](#-关于-me)
-[![Projects](https://img.shields.io/badge/精选项目-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yMi4xOSA4LjQ2NmwzLjQyMSAzLjQxOWMuMzc3LjM3Ny4zNzcuOTkyIDAgMS4zNjlsLTYuNDQ5IDYuNDRjLS4zNzcuMzc3LS45OTIuMzc3LTEuMzY5IDBMMi45IDE1LjUzNGMtLjM3Ny0uMzc3LS4zNzctLjk5MiAwLTEuMzY5bDMuNDIxLTMuNDE5Yy4zNzctLjM3Ny45OTItLjM3NyAxLjM2OSAwbDQuNDY4IDQuNDY4IDguNDM5LTguNDM5Yy4zNzctLjM3Ny45OTItLjM3NyAxLjM2OSAwbDMuNDIxIDMuNDJjLjM3Ny4zNzcuMzc3Ljk5MiAwIDEuMzY5eiIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](#-精选项目)
-[![Skills](https://img.shields.io/badge/热爱的领域-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white&logoSize=14)](#-热爱的领域)
-[![Contact](https://img.shields.io/badge/联系方式-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgeD0iMiIgeT0iNSIgcng9IjIiLz48bGluZSB4MT0iMjIiIHkxPSIxNSIgeDI9IjIyIiB5Mj0iMTUiLz48cGF0aCBkPSJNMTAuNSA4LjV2NiIvPjxwYXRoIGQ9Ik0xMy41IDExLjVsLTMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](#-联系方式)
+[![About](https://img.shields.io/badge/关于我-7c3aed?style=flat-square)](#-关于-me)
+[![Identity](https://img.shields.io/badge/我的身份-7c3aed?style=flat-square)](#-我的身份)
+[![Skills](https://img.shields.io/badge/热爱的领域-7c3aed?style=flat-square)](#-热爱的领域)
+[![Engineering](https://img.shields.io/badge/工程实践-7c3aed?style=flat-square)](#-工程实践)
+[![Projects](https://img.shields.io/badge/精选项目-7c3aed?style=flat-square)](#-精选项目)
+[![Contact](https://img.shields.io/badge/联系方式-7c3aed?style=flat-square)](#-联系方式)
 
 </div>
 
@@ -52,46 +55,46 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Education](https://img.shields.io/badge/-生物科学本科-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://scau.edu.cn)
+[![Education](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://scau.edu.cn)
 
-**华南农业大学**
-2024-2028
+**生物科学本科**
+华南农业大学 · 2024-2028
 
 </div>
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Leadership](https://img.shields.io/badge/-AI协会会长-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian)
+[![Leadership](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian)
 
-**技术部部长**
-Taurus 机器人战队
+**AI 协会会长**
+技术部部长 · Taurus 机器人战队
 
 </div>
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Sports](https://img.shields.io/badge/-羽球队队长-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNSIvPjxwYXRoIGQ9Ik0xMiAxM3Y5Ii8+PHBhdGggZD0iTTEyIDE4bDQgNCIvPjxwYXRoIGQ9Ik0xMiAxOGwtNCA0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian)
+[![Sports](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNSIvPjxwYXRoIGQ9Ik0xMiAxM3Y5Ii8+PHBhdGggZD0iTTEyIDE4bDQgNCIvPjxwYXRoIGQ9Ik0xMiAxOGwtNCA0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian)
 
-**全媒体创意部**
-视频剪辑
+**羽球队队长**
+全媒体创意部 · 视频剪辑
 
 </div>
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 <div align="center">
 
-[![Robotics](https://img.shields.io/badge/-机器人战队-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian)
+[![Robotics](https://img.shields.io/badge/-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian)
 
 **Taurus Robotics**
 智能硬件开发
@@ -109,13 +112,13 @@ Taurus 机器人战队
 
 在我的世界里，两条河流交汇：
 
-**DNA 是代码** —— 四种碱基书写着生命最古老的程序，每一对碱基都是一次精心设计的函数调用
+**DNA 是代码** — 四种碱基书写着生命最古老的程序，每一对碱基都是一次精心设计的函数调用
 
-**代码是生命** —— 0与1之间流淌着新时代的脉搏，每一个循环都是一次呼吸的节奏
+**代码是生命** — 0与1之间流淌着新时代的脉搏，每一个循环都是一次呼吸的节奏
 
-**笔是心的延伸** —— 执笔写心，以意驱笔。文字非工具，乃灵魂之呼吸，思想于纸上之投影
+**笔是心的延伸** — 执笔写心，以意驱笔。文字非工具，乃灵魂之呼吸，思想于纸上之投影
 
-**工程是思想的化身** —— 工程，乃理论于现实之投射。我们以代码与钢铁，将抽象理念锻造成可触摸的真实
+**工程是思想的化身** — 工程，乃理论于现实之投射。我们以代码与钢铁，将抽象理念锻造成可触摸的真实
 
 当显微镜的目镜与显示屏的光芒重叠，我看见了——
 
@@ -130,7 +133,7 @@ Taurus 机器人战队
 
 > **"头顶璀璨星空，心中深邃律令。"**
 
-康德言，有二物愈久愈令人敬畏——
+康德言，有二物愈久愈令人敬畏—
 **头顶之星空**：宇宙之浩瀚与秩序，万物之运行与法则
 **心中之道德律**：人性之深邃与光辉，灵魂之自由与尊严
 
@@ -142,17 +145,87 @@ Taurus 机器人战队
 
 **在生命与代码的交汇处，我找到了这些方向：**
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,react,nextjs,ros,stm32" alt="skills" />
-</p>
+<div align="center">
 
-| 领域 | 热度 |
-|:---|:---:|
-| AI for Science | ██████████ 100% |
-| 生物信息学 | ██████████ 95% |
-| 计算机视觉 | ████████░ 85% |
-| 机器人控制 | ████████░ 85% |
-| 智能硬件 | ███████░ 80% |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![AI for Science](https://img.shields.io/badge/AI_for_Science-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**100%** █████████████████████
+
+科学计算与深度学习
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Bioinformatics](https://img.shields.io/badge/生物信息学-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**95%** ██████████████████░░
+
+基因组学与数据分析
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Computer Vision](https://img.shields.io/badge/计算机视觉-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**85%** ████████████████░░░░
+
+图像处理与目标检测
+
+</div>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Robotics](https://img.shields.io/badge/机器人控制-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**85%** ████████████████░░░░
+
+运动规划与控制系统
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Smart Hardware](https://img.shields.io/badge/智能硬件-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**80%** ███████████████░░░░░
+
+嵌入式与物联网
+
+</div>
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Tech Stack](https://img.shields.io/badge/技术栈-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+Python · PyTorch · ROS
+React · STM32 · OpenCV
+
+</div>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -162,59 +235,85 @@ Taurus 机器人战队
 
 我相信优雅的代码是最好的文档，规范的流程是团队协作的基石。
 
-### 代码规范
+<div align="center">
 
-| 语言 | 规范 | 工具 |
-|:---|:---|:---|
-| Python | PEP 8 | `black`, `ruff`, `mypy` |
-| C++ | Google C++ Style | `clang-format`, `clang-tidy` |
-| JavaScript/TypeScript | Airbnb Style Guide | `ESLint`, `Prettier` |
-| React | React 官方规范 | `react-devtools` |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 测试哲学
+<div align="center">
 
-```
-测试不是负担，是深夜里的安全感灯塔。
+[![Code Standards](https://img.shields.io/badge/代码规范-7c3aed?style=flat-square)](https://github.com/Linmoqian)
 
-├── 单元测试  —— pytest/jest，覆盖率 > 80%
-├── 集成测试  —— API 端到端验证
-├── 性能测试  —— 压力测试、基准测试
-└── TDD 实践  —— 先红后绿，再重构
-```
+**Python** — PEP 8
+**C++** — Google C++ Style
+**JS/TS** — Airbnb Style Guide
+**React** — React 官方规范
 
-### 文档意识
+`black` · `ruff` · `mypy`
+`clang-format` · `ESLint` · `Prettier`
 
-| 文档类型 | 工具/标准 |
-|:---|:---|
-| API 文档 | Sphinx / JSDoc |
-| 部署手册 | Docker Compose / README |
-| 代码注释 | Google Style Docstrings |
-| 变更日志 | CHANGELOG.md (Conventional Commits) |
+</div>
+</td>
+<td width="50%" valign="top">
 
-### 版本管理
+<div align="center">
 
-```
-Git Flow 工作流
-├── main      —— 生产环境
-├── develop   —— 开发主分支
-├── feature/* —— 功能开发
-└── hotfix/*  —— 紧急修复
+[![Testing](https://img.shields.io/badge/测试哲学-7c3aed?style=flat-square)](https://github.com/Linmoqian)
 
-Commit 规范：Conventional Commits (中文描述)
-feat: 新功能
-fix: 修复
-docs: 文档
-refactor: 重构
-test: 测试
-chore: 构建/工具
-```
+**测试是深夜里的安全感灯塔**
 
-### 调试与优化
+单元测试 — pytest/jest
+集成测试 — API 端到端验证
+性能测试 — 压力测试、基准测试
+TDD 实践 — 先红后绿，再重构
 
-- **性能分析**：`py-spy` / `pprof` / Chrome DevTools
-- **内存调试**：`memray` / `valgrind`
-- **日志系统**：结构化日志 (JSON format)
-- **错误追踪**：Sentry / 自建监控系统
+覆盖率 > 80%
+
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+[![Documentation](https://img.shields.io/badge/文档意识-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**文档即代码**
+
+API 文档 — Sphinx / JSDoc
+部署手册 — Docker Compose
+代码注释 — Google Docstrings
+变更日志 — CHANGELOG.md
+
+Conventional Commits
+
+</div>
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+
+[![Version Control](https://img.shields.io/badge/版本管理-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**Git Flow 工作流**
+
+main — 生产环境
+develop — 开发主分支
+feature/* — 功能开发
+hotfix/* — 紧急修复
+
+**Commit 规范**
+feat · fix · docs · refactor
+test · chore
+
+</div>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -222,9 +321,70 @@ chore: 构建/工具
 
 <div align="center">
 
-| 贡献 | PR | 仓库 | 审查 | Bug |
-|:---:|:---:|:---:|:---:|:---:|
-| **1,200+**<br/>总贡献 | **50+**<br/>PR 合并 | **15+**<br/>活跃仓库 | **100+**<br/>代码审查 | **30+**<br/>Bug 修复 |
+<table>
+<tr>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Contributions](https://img.shields.io/badge/贡献-1%2C200%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**1,200+**
+
+代码提交与 PR
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![PRs](https://img.shields.io/badge/PR-50%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**50+**
+
+功能与修复
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Repos](https://img.shields.io/badge/仓库-15%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**15+**
+
+参与的项目
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Reviews](https://img.shields.io/badge/审查-100%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**100+**
+
+质量把关
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Bugs](https://img.shields.io/badge/Bug-30%2B-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**30+**
+
+问题解决
+
+</div>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -234,9 +394,70 @@ chore: 构建/工具
 
 <div align="center">
 
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-|:---:|:---:|:---:|:---:|:---:|
-| **iGEM**<br>全球金奖 | **RoboMaster**<br>国家一等奖 | **MCM/ICM**<br>M奖 | **AI for Science**<br>三等奖 | **生命科学竞赛**<br>进行中 |
+<table>
+<tr>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![iGEM](https://img.shields.io/badge/iGEM-全球金奖-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**全球金奖**
+
+合成生物学竞赛
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![RoboMaster](https://img.shields.io/badge/RoboMaster-国家一等奖-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**国家一等奖**
+
+机器人竞技比赛
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![MCM/ICM](https://img.shields.io/badge/MCM_ICM-M奖-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**M 奖**
+
+数学建模竞赛
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![AI for Science](https://img.shields.io/badge/AI_for_Science-三等奖-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**三等奖**
+
+AI 科学挑战赛
+
+</div>
+</td>
+<td width="20%" valign="top">
+
+<div align="center">
+
+[![Life Sciences](https://img.shields.io/badge/生命科学竞赛-进行中-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+
+**进行中**
+
+生命科学竞赛
+
+</div>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -246,11 +467,11 @@ chore: 构建/工具
 
 <div align="center">
 
-[![Soybean Phenotype](https://img.shields.io/badge/大豆表型识别-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white&logoSize=14)](https://github.com/Linmoqian/soybean-phenotype)
-[![Harvesting Robot](https://img.shields.io/badge/采摘机器人-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](https://github.com/Linmoqian/harvesting-robot)
-[![DNA Expression](https://img.shields.io/badge/DNA表达预测-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yIDEyczo2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48cGF0aCBkPSJNMiAxMnM2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48L3N2Zz4=&logoColor=white&logoSize=14)](https://github.com/Linmoqian/dna-expression)
-[![AI Website](https://img.shields.io/badge/AI协会官网-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMnExNS4zIDE1LjMgMCAwIDEgMTAgMTAiLz48cGF0aCBkPSJNMTIgMjJxMTUuMy0xNS4zIDAgMCAxLTEwLTEwIi8+PC9zdmc+&logoColor=white&logoSize=14)](https://github.com/Linmoqian/ai-association-website)
-[![LLM Robot Arm](https://img.shields.io/badge/LLM机械臂控制-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgcng9IjIiLz48cmVjdCB4PSIxNSIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiByeD0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSI1IiByPSIyIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTYgMTB2NCIvPjxwYXRoIGQ9Ik0xOCAxMHY0Ii8+PC9zdmc+&logoColor=white&logoSize=14)](https://github.com/Linmoqian/llm-robotic-arm)
+[![Soybean Phenotype](https://img.shields.io/badge/大豆表型识别-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/soybean-phenotype)
+[![Harvesting Robot](https://img.shields.io/badge/采摘机器人-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian/harvesting-robot)
+[![DNA Expression](https://img.shields.io/badge/DNA表达预测-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yIDEyczo2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48cGF0aCBkPSJNMiAxMnM2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/dna-expression)
+[![AI Website](https://img.shields.io/badge/AI协会官网-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMnExNS4zIDE1LjMgMCAwIDEgMTAgMTAiLz48cGF0aCBkPSJNMTIgMjJxMTUuMy0xNS4zIDAgMCAxLTEwLTEwIi8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/ai-association-website)
+[![LLM Robot Arm](https://img.shields.io/badge/LLM机械臂控制-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgcng9IjIiLz48cmVjdCB4PSIxNSIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiByeD0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSI1IiByPSIyIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTYgMTB2NCIvPjxwYXRoIGQ9Ik0xOCAxMHY0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/llm-robotic-arm)
 
 </div>
 
@@ -396,7 +617,7 @@ chore: 构建/工具
 
 [![Gmail](https://img.shields.io/badge/smkxxyclf@stu.scau.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
 [![QQ Mail](https://img.shields.io/badge/3047076929@qq.com-12B7F5?style=flat-square&logo=tencentqq&logoColor=white)](mailto:3047076929@qq.com)
-[![Website](https://img.shields.io/badge/linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=14)](https://linfengchen.com)
+[![Website](https://img.shields.io/badge/linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://linfengchen.com)
 
 </div>
 
