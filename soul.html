@@ -98,30 +98,6 @@
             }
         }, 1000);
 
-        // === 渐进式加载 ===
-        let starField, spiralSoul, flowingParticles;
-
-        async function loadProgressively() {
-            // 先显示星空
-            starField = createStarField();
-            await new Promise(r => setTimeout(r, 100));
-
-            // 再显示螺旋
-            spiralSoul = createSpiralSoul();
-            await new Promise(r => setTimeout(r, 100));
-
-            // 最后显示粒子
-            flowingParticles = createFlowingParticles();
-            spiralSoul.add(flowingParticles);
-
-            // 隐藏加载提示
-            loading.style.opacity = '0';
-            setTimeout(() => loading.remove(), 500);
-
-            // 开始动画
-            animate();
-        }
-
         // === 快捷键 ===
         window.addEventListener('keydown', (event) => {
             switch(event.key) {
@@ -491,6 +467,30 @@
 
             controls.update();
             renderer.render(scene, camera);
+        }
+
+        // === 渐进式加载 ===
+        let starField, spiralSoul, flowingParticles;
+
+        async function loadProgressively() {
+            // 先显示星空
+            starField = createStarField();
+            await new Promise(r => setTimeout(r, 100));
+
+            // 再显示螺旋
+            spiralSoul = createSpiralSoul();
+            await new Promise(r => setTimeout(r, 100));
+
+            // 最后显示粒子
+            flowingParticles = createFlowingParticles();
+            spiralSoul.add(flowingParticles);
+
+            // 隐藏加载提示
+            loading.style.opacity = '0';
+            setTimeout(() => loading.remove(), 500);
+
+            // 开始动画
+            animate();
         }
 
         // 启动渐进式加载
