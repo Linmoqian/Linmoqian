@@ -266,6 +266,76 @@
         const spiralSoul = createSpiralSoul();
         console.log('✓ 螺旋灵魂形态创建完成');
 
+        // === 流动粒子系统 ===
+        function createFlowingParticles() {
+            const particleCount = 2000;
+            const geometry = new THREE.BufferGeometry();
+            const positions = new Float32Array(particleCount * 3);
+            const colors = new Float32Array(particleCount * 3);
+            const sizes = new Float32Array(particleCount);
+            const velocities = [];
+
+            const colorPalette = [
+                new THREE.Color(0x7c3aed),  // 紫色
+                new THREE.Color(0xc084fc),  // 浅紫
+                new THREE.Color(0x22d3ee),  // 青色
+                new THREE.Color(0xe879f9)   // 粉色
+            ];
+
+            for (let i = 0; i < particleCount; i++) {
+                const i3 = i * 3;
+
+                // 随机位置（球形分布）
+                const radius = 50 + Math.random() * 150;
+                const theta = Math.random() * Math.PI * 2;
+                const phi = Math.random() * Math.PI;
+
+                positions[i3] = radius * Math.sin(phi) * Math.cos(theta);
+                positions[i3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
+                positions[i3 + 2] = radius * Math.cos(phi);
+
+                // 随机颜色
+                const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+                colors[i3] = color.r;
+                colors[i3 + 1] = color.g;
+                colors[i3 + 2] = color.b;
+
+                sizes[i] = Math.random() * 3 + 1;
+
+                // 速度（向中心或向外）
+                velocities.push({
+                    x: (Math.random() - 0.5) * 0.3,
+                    y: (Math.random() - 0.5) * 0.3,
+                    z: (Math.random() - 0.5) * 0.3,
+                    orbitRadius: radius,
+                    orbitSpeed: (Math.random() - 0.5) * 0.01,
+                    orbitAngle: theta
+                });
+            }
+
+            geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+            geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+            const material = new THREE.PointsMaterial({
+                size: 2,
+                vertexColors: true,
+                transparent: true,
+                opacity: 0.6,
+                blending: THREE.AdditiveBlending,
+                sizeAttenuation: true
+            });
+
+            const particles = new THREE.Points(geometry, material);
+            particles.userData.velocities = velocities;
+
+            return particles;
+        }
+
+        const flowingParticles = createFlowingParticles();
+        spiralSoul.add(flowingParticles);
+        console.log('✓ 流动粒子系统创建完成');
+
         // === 动画循环 ===
         function animate() {
             requestAnimationFrame(animate);
@@ -281,6 +351,24 @@
 
             // 缓慢旋转
             spiralSoul.rotation.y += 0.002;
+
+            // 粒子流动
+            const positions = flowingParticles.geometry.attributes.position.array;
+            const velocities = flowingParticles.userData.velocities;
+
+            for (let i = 0; i < velocities.length; i++) {
+                const i3 = i * 3;
+
+                // 轨道运动
+                velocities[i].orbitAngle += velocities[i].orbitSpeed;
+
+                // 更新位置
+                positions[i3] = Math.cos(velocities[i].orbitAngle) * velocities[i].orbitRadius;
+                positions[i3 + 1] += Math.sin(performance.now() * 0.001 + i) * 0.1;
+                positions[i3 + 2] = Math.sin(velocities[i].orbitAngle) * velocities[i].orbitRadius;
+            }
+
+            flowingParticles.geometry.attributes.position.needsUpdate = true;
 
             controls.update();
             renderer.render(scene, camera);
