@@ -87,6 +87,83 @@
         setTimeout(() => loading.remove(), 500);
 
         console.log('✓ 场景初始化完成');
+
+        // === 星空背景 ===
+        function createStarField() {
+            const starGeometry = new THREE.BufferGeometry();
+            const starCount = 1000;
+            const positions = new Float32Array(starCount * 3);
+            const colors = new Float32Array(starCount * 3);
+            const sizes = new Float32Array(starCount);
+
+            const colorPalette = [
+                new THREE.Color(0xffffff),
+                new THREE.Color(0xc4b5fd),
+                new THREE.Color(0x818cf8),
+                new THREE.Color(0x22d3ee)
+            ];
+
+            for (let i = 0; i < starCount; i++) {
+                const i3 = i * 3;
+
+                // 球形分布
+                const radius = 1500 + Math.random() * 1000;
+                const theta = Math.random() * Math.PI * 2;
+                const phi = Math.acos(2 * Math.random() - 1);
+
+                positions[i3] = radius * Math.sin(phi) * Math.cos(theta);
+                positions[i3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
+                positions[i3 + 2] = radius * Math.cos(phi);
+
+                // 随机颜色
+                const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+                colors[i3] = color.r;
+                colors[i3 + 1] = color.g;
+                colors[i3 + 2] = color.b;
+
+                sizes[i] = Math.random() * 2 + 0.5;
+            }
+
+            starGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            starGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+            starGeometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+            const starMaterial = new THREE.PointsMaterial({
+                size: 2,
+                vertexColors: true,
+                transparent: true,
+                opacity: 0.8,
+                sizeAttenuation: true
+            });
+
+            const stars = new THREE.Points(starGeometry, starMaterial);
+            scene.add(stars);
+
+            // 缓慢旋转动画
+            stars.userData.rotationSpeed = {
+                x: (Math.random() - 0.5) * 0.0001,
+                y: (Math.random() - 0.5) * 0.0001
+            };
+
+            return stars;
+        }
+
+        const starField = createStarField();
+        console.log('✓ 星空背景创建完成');
+
+        // === 动画循环 ===
+        function animate() {
+            requestAnimationFrame(animate);
+
+            // 星空旋转
+            starField.rotation.x += starField.userData.rotationSpeed.x;
+            starField.rotation.y += starField.userData.rotationSpeed.y;
+
+            controls.update();
+            renderer.render(scene, camera);
+        }
+
+        animate();
     </script>
 </body>
 </html>
