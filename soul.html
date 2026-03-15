@@ -42,7 +42,51 @@
         import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
         import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js';
 
-        // 代码将在后续任务中添加
+        // === 场景初始化 ===
+        const container = document.getElementById('canvas-container');
+        const loading = document.getElementById('loading');
+
+        // 创建场景
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x0f0f23);
+        scene.fog = new THREE.FogExp2(0x0f0f23, 0.0008);
+
+        // 创建相机
+        const camera = new THREE.PerspectiveCamera(
+            75,
+            window.innerWidth / window.innerHeight,
+            0.1,
+            5000
+        );
+        camera.position.set(0, 0, 500);
+
+        // 创建渲染器
+        const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        container.appendChild(renderer.domElement);
+
+        // 轨道控制器
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.05;
+        controls.minDistance = 100;
+        controls.maxDistance = 1500;
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.2;
+
+        // 窗口自适应
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // 隐藏加载提示
+        loading.style.opacity = '0';
+        setTimeout(() => loading.remove(), 500);
+
+        console.log('✓ 场景初始化完成');
     </script>
 </body>
 </html>
