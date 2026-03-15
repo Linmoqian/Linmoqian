@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>灵魂归处 | Soul's Home</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { overflow: hidden; background: #0f0f23; font-family: 'Georgia', serif; }
+        #canvas-container { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; }
+        #quote {
+            position: fixed;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: rgba(192, 132, 252, 0.9);
+            text-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+            pointer-events: none;
+            z-index: 10;
+        }
+        #quote .zh { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        #quote .en { font-size: 1rem; opacity: 0.8; font-style: italic; }
+        #loading {
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            color: #c084fc;
+            font-size: 1.2rem;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading">灵魂正在凝聚...</div>
+    <div id="canvas-container"></div>
+    <div id="quote">
+        <div class="zh">非选择的战场，乃灵魂的归处。</div>
+        <div class="en">Not a battlefield of choice, but the home of the soul.</div>
+    </div>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+        // === 场景初始化 ===
+        const container = document.getElementById('canvas-container');
+        const loading = document.getElementById('loading');
+
+        // 创建场景
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x0f0f23);
+        scene.fog = new THREE.FogExp2(0x0f0f23, 0.0008);
+
+        // 创建相机
+        const camera = new THREE.PerspectiveCamera(
+            75,
+            window.innerWidth / window.innerHeight,
+            0.1,
+            5000
+        );
+        camera.position.set(0, 0, 500);
+
+        // 创建渲染器
+        const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        container.appendChild(renderer.domElement);
+
+        // 轨道控制器
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.05;
+        controls.minDistance = 100;
+        controls.maxDistance = 1500;
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.2;
+
+        // 窗口自适应
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // 隐藏加载提示（在渐进式加载完成后）
+        // loading.style.opacity = '0';
+        // setTimeout(() => loading.remove(), 500);
+
+        console.log('✓ 场景初始化完成');
+
+        // === 性能优化 ===
+        let frameCount = 0;
+        setInterval(() => {
+            const fps = frameCount;
+            frameCount = 0;
+            if (fps < 30) {
+                console.warn('低帧率:', fps);
+            }
+        }, 1000);
+
+        // === 快捷键 ===
+        window.addEventListener('keydown', (event) => {
+            switch(event.key) {
+                case 'r': // 重置视角
+                    camera.position.set(0, 0, 380);
+                    controls.reset();
+                    break;
+                case ' ': // 空格爆炸
+                    if (flowingParticles) explodeParticles();
+                    break;
+            }
+        });
+
+        // === 星空背景 ===
+        function createStarField() {
+            const starGeometry = new THREE.BufferGeometry();
+            const starCount = 1000;
+            const positions = new Float32Array(starCount * 3);
+            const colors = new Float32Array(starCount * 3);
+            const sizes = new Float32Array(starCount);
+
+            const colorPalette = [
+                new THREE.Color(0xffffff),
+                new THREE.Color(0xc4b5fd),
+                new THREE.Color(0x818cf8),
+                new THREE.Color(0x22d3ee)
+            ];
+
+            for (let i = 0; i < starCount; i++) {
+                const i3 = i * 3;
+
+                // 球形分布
+                const radius = 1500 + Math.random() * 1000;
+                const theta = Math.random() * Math.PI * 2;
+                const phi = Math.acos(2 * Math.random() - 1);
+
+                positions[i3] = radius * Math.sin(phi) * Math.cos(theta);
+                positions[i3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
+                positions[i3 + 2] = radius * Math.cos(phi);
+
+                // 随机颜色
+                const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+                colors[i3] = color.r;
+                colors[i3 + 1] = color.g;
+                colors[i3 + 2] = color.b;
+
+                sizes[i] = Math.random() * 2 + 0.5;
+            }
+
+            starGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            starGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+            starGeometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+            const starMaterial = new THREE.PointsMaterial({
+                size: 2,
+                vertexColors: true,
+                transparent: true,
+                opacity: 0.8,
+                sizeAttenuation: true
+            });
+
+            const stars = new THREE.Points(starGeometry, starMaterial);
+            scene.add(stars);
+
+            // 缓慢旋转动画
+            stars.userData.rotationSpeed = {
+                x: (Math.random() - 0.5) * 0.0001,
+                y: (Math.random() - 0.5) * 0.0001
+            };
+
+            return stars;
+        }
+
+        // 星空背景由渐进式加载调用
+        // const starField = createStarField();
+        console.log('✓ 星空背景函数定义完成');
+
+        // === DNA螺旋灵魂形态 ===
+        function createSpiralSoul() {
+            const group = new THREE.Group();
+
+            // 螺旋参数
+            const turns = 3;           // 螺旋圈数
+            const pointsPerTurn = 200; // 每圈点数
+            const radius = 120;        // 螺旋半径
+            const height = 400;        // 螺旋高度
+            const tubeRadius = 3;      // 粒子管径
+
+            // 两条链的颜色
+            const chain1Color = new THREE.Color(0x7c3aed);
+            const chain2Color = new THREE.Color(0xc084fc);
+
+            for (let chain = 0; chain < 2; chain++) {
+                const geometry = new THREE.BufferGeometry();
+                const positions = [];
+                const colors = [];
+
+                for (let i = 0; i <= turns * pointsPerTurn; i++) {
+                    const t = i / pointsPerTurn;
+                    const angle = t * Math.PI * 2;
+                    const y = (t / turns - 0.5) * height;
+
+                    // 双螺旋偏移
+                    const phase = chain * Math.PI;
+                    const x = Math.cos(angle + phase) * radius;
+                    const z = Math.sin(angle + phase) * radius;
+
+                    positions.push(x, y, z);
+
+                    // 颜色渐变
+                    const color = chain === 0 ? chain1Color : chain2Color;
+                    const gradient = (Math.sin(t * Math.PI) + 1) / 2;
+                    colors.push(
+                        color.r * (0.5 + gradient * 0.5),
+                        color.g * (0.5 + gradient * 0.5),
+                        color.b * (0.5 + gradient * 0.5)
+                    );
+                }
+
+                geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+                geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+
+                const material = new THREE.PointsMaterial({
+                    size: tubeRadius * 2,
+                    vertexColors: true,
+                    transparent: true,
+                    opacity: 0.9,
+                    blending: THREE.AdditiveBlending
+                });
+
+                const points = new THREE.Points(geometry, material);
+                group.add(points);
+            }
+
+            // 添加连接线（碱基对）
+            const baseGeometry = new THREE.BufferGeometry();
+            const basePositions = [];
+            const baseColors = [];
+
+            for (let i = 0; i < turns * pointsPerTurn; i += 5) {
+                const t = i / pointsPerTurn;
+                const angle = t * Math.PI * 2;
+                const y = (t / turns - 0.5) * height;
+
+                // 链1位置
+                basePositions.push(
+                    Math.cos(angle) * radius,
+                    y,
+                    Math.sin(angle) * radius
+                );
+
+                // 链2位置
+                basePositions.push(
+                    Math.cos(angle + Math.PI) * radius,
+                    y,
+                    Math.sin(angle + Math.PI) * radius
+                );
+
+                // 流光颜色
+                const hue = (t + performance.now() * 0.0001) % 1;
+                const color = new THREE.Color().setHSL(0.75 + hue * 0.15, 0.8, 0.6);
+                baseColors.push(color.r, color.g, color.b);
+                baseColors.push(color.r, color.g, color.b);
+            }
+
+            baseGeometry.setAttribute('position', new THREE.Float32BufferAttribute(basePositions, 3));
+            baseGeometry.setAttribute('color', new THREE.Float32BufferAttribute(baseColors, 3));
+
+            const baseMaterial = new THREE.LineBasicMaterial({
+                vertexColors: true,
+                transparent: true,
+                opacity: 0.4,
+                blending: THREE.AdditiveBlending
+            });
+
+            const baseLines = new THREE.LineSegments(baseGeometry, baseMaterial);
+            group.add(baseLines);
+
+            scene.add(group);
+
+            // 动画数据
+            group.userData = {
+                breathePhase: 0,
+                breatheSpeed: 0.001
+            };
+
+            return group;
+        }
+
+        // 螺旋形态由渐进式加载调用
+        // const spiralSoul = createSpiralSoul();
+        console.log('✓ 螺旋形态函数定义完成');
+
+        // === 流动粒子系统 ===
+        function createFlowingParticles() {
+            const particleCount = 2000;
+            const geometry = new THREE.BufferGeometry();
+            const positions = new Float32Array(particleCount * 3);
+            const colors = new Float32Array(particleCount * 3);
+            const sizes = new Float32Array(particleCount);
+            const velocities = [];
+
+            const colorPalette = [
+                new THREE.Color(0x7c3aed),  // 紫色
+                new THREE.Color(0xc084fc),  // 浅紫
+                new THREE.Color(0x22d3ee),  // 青色
+                new THREE.Color(0xe879f9)   // 粉色
+            ];
+
+            for (let i = 0; i < particleCount; i++) {
+                const i3 = i * 3;
+
+                // 随机位置（球形分布）
+                const radius = 50 + Math.random() * 150;
+                const theta = Math.random() * Math.PI * 2;
+                const phi = Math.random() * Math.PI;
+
+                positions[i3] = radius * Math.sin(phi) * Math.cos(theta);
+                positions[i3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
+                positions[i3 + 2] = radius * Math.cos(phi);
+
+                // 随机颜色
+                const color = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+                colors[i3] = color.r;
+                colors[i3 + 1] = color.g;
+                colors[i3 + 2] = color.b;
+
+                sizes[i] = Math.random() * 3 + 1;
+
+                // 速度（向中心或向外）
+                velocities.push({
+                    x: (Math.random() - 0.5) * 0.3,
+                    y: (Math.random() - 0.5) * 0.3,
+                    z: (Math.random() - 0.5) * 0.3,
+                    orbitRadius: radius,
+                    orbitSpeed: (Math.random() - 0.5) * 0.01,
+                    orbitAngle: theta
+                });
+            }
+
+            geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+            geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+            const material = new THREE.PointsMaterial({
+                size: 2,
+                vertexColors: true,
+                transparent: true,
+                opacity: 0.8,
+                blending: THREE.AdditiveBlending,
+                sizeAttenuation: true
+            });
+
+            const particles = new THREE.Points(geometry, material);
+            particles.userData.velocities = velocities;
+
+            return particles;
+        }
+
+        // 粒子系统由渐进式加载调用
+        // const flowingParticles = createFlowingParticles();
+        // spiralSoul.add(flowingParticles);
+        console.log('✓ 流动粒子系统函数定义完成');
+
+        // === 交互系统 ===
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        let isHovering = false;
+
+        // 鼠标移动
+        window.addEventListener('mousemove', (event) => {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+        });
+
+        // 点击效果
+        window.addEventListener('click', () => {
+            if (isHovering) {
+                explodeParticles();
+            }
+        });
+
+        // 粒子爆炸效果
+        function explodeParticles() {
+            const positions = flowingParticles.geometry.attributes.position.array;
+            const velocities = flowingParticles.userData.velocities;
+
+            for (let i = 0; i < velocities.length; i++) {
+                const i3 = i * 3;
+                const burstStrength = 50;
+
+                velocities[i].orbitRadius += (Math.random() - 0.5) * burstStrength;
+                positions[i3] += (Math.random() - 0.5) * burstStrength;
+                positions[i3 + 1] += (Math.random() - 0.5) * burstStrength;
+                positions[i3 + 2] += (Math.random() - 0.5) * burstStrength;
+            }
+
+            flowingParticles.geometry.attributes.position.needsUpdate = true;
+
+            // 1秒后重组
+            setTimeout(() => {
+                resetParticles();
+            }, 1000);
+        }
+
+        // 重置粒子
+        function resetParticles() {
+            const positions = flowingParticles.geometry.attributes.position.array;
+            const velocities = flowingParticles.userData.velocities;
+
+            for (let i = 0; i < velocities.length; i++) {
+                const i3 = i * 3;
+                velocities[i].orbitRadius = 50 + Math.random() * 150;
+            }
+        }
+
+        console.log('✓ 交互系统创建完成');
+
+        // === 动画循环 ===
+        function animate() {
+            requestAnimationFrame(animate);
+            frameCount++;
+
+            // 星空旋转
+            starField.rotation.x += starField.userData.rotationSpeed.x;
+            starField.rotation.y += starField.userData.rotationSpeed.y;
+
+            // 呼吸效果
+            spiralSoul.userData.breathePhase += spiralSoul.userData.breatheSpeed;
+            const breatheScale = 1 + Math.sin(spiralSoul.userData.breathePhase) * 0.1;
+            spiralSoul.scale.set(breatheScale, breatheScale, breatheScale);
+
+            // 缓慢旋转
+            spiralSoul.rotation.y += 0.002;
+
+            // 粒子流动
+            const positions = flowingParticles.geometry.attributes.position.array;
+            const velocities = flowingParticles.userData.velocities;
+
+            for (let i = 0; i < velocities.length; i++) {
+                const i3 = i * 3;
+
+                // 轨道运动
+                velocities[i].orbitAngle += velocities[i].orbitSpeed;
+
+                // 更新位置
+                positions[i3] = Math.cos(velocities[i].orbitAngle) * velocities[i].orbitRadius;
+                positions[i3 + 1] += Math.sin(performance.now() * 0.001 + i) * 0.1;
+                positions[i3 + 2] = Math.sin(velocities[i].orbitAngle) * velocities[i].orbitRadius;
+            }
+
+            flowingParticles.geometry.attributes.position.needsUpdate = true;
+
+            // 悬停检测
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObject(flowingParticles);
+
+            if (intersects.length > 0 && !isHovering) {
+                isHovering = true;
+                document.body.style.cursor = 'pointer';
+                flowingParticles.material.size = 4;
+            } else if (intersects.length === 0 && isHovering) {
+                isHovering = false;
+                document.body.style.cursor = 'default';
+                flowingParticles.material.size = 2;
+            }
+
+            controls.update();
+            renderer.render(scene, camera);
+        }
+
+        // === 渐进式加载 ===
+        let starField, spiralSoul, flowingParticles;
+
+        async function loadProgressively() {
+            // 先显示星空
+            starField = createStarField();
+            await new Promise(r => setTimeout(r, 100));
+
+            // 再显示螺旋
+            spiralSoul = createSpiralSoul();
+            await new Promise(r => setTimeout(r, 100));
+
+            // 最后显示粒子
+            flowingParticles = createFlowingParticles();
+            spiralSoul.add(flowingParticles);
+
+            // 隐藏加载提示
+            loading.style.opacity = '0';
+            setTimeout(() => loading.remove(), 500);
+
+            // 开始动画
+            animate();
+        }
+
+        // 启动渐进式加载
+        loadProgressively();
+    </script>
+</body>
+</html>
