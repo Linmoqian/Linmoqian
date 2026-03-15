@@ -1,8 +1,7 @@
 <div align="center">
 
-<h3>Select Language / 选择语言</h3>
-
-**[English](README.md)** | **[中文](README-ZH.md)**
+[![English](https://img.shields.io/badge/English_Version-7c3aed?style=for-the-badge)](README.md)
+[![中文](https://img.shields.io/badge/中文版本-7c3aed?style=for-the-badge)](README-ZH.md)
 
 <br>
 
@@ -49,15 +48,25 @@ At twenty, I stand at the intersection of two worlds—on one side, the miracle 
 
 ### My Identity
 
+```text
+                            2024
+                               |
+                  +------------+------------+
+                  |            |            |
+              Bioscience   AI Association  Badminton
+              B.S. Entry    President       Captain
+              SCAU          Tech Lead    Media & Creative
+                                         Video Editing
+
+               Taurus Robotics Team
+```
+
 <div align="center">
 
-[![B.S. Bioscience](https://img.shields.io/badge/B.S._Bioscience-SCAU-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white&logoSize=16)](https://scau.edu.cn)
-[![AI Association President](https://img.shields.io/badge/AI_Association_President-Tech_Lead-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white&logoSize=16)](https://github.com/Linmoqian)
-[![Badminton Captain](https://img.shields.io/badge/Badminton_Captain-Media_Dept-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNSIvPjxwYXRoIGQ9Ik0xMiAxM3Y5Ii8+PHBhdGggZD0iTTEyIDE4bDQgNCIvPjxwYXRoIGQ9Ik0xMiAxOGwtNCA0Ii8+PC9zdmc+&logoColor=white&logoSize=16)](https://github.com/Linmoqian)
-
-[2024-2028](https://img.shields.io/badge/-2024--2028-lightgrey?style=for-the-badge)
-[Taurus Robotics](https://img.shields.io/badge/Taurus_Robotics-7c3aed?style=for-the-badge)
-[Video Editing](https://img.shields.io/badge/Video_Editing-7c3aed?style=for-the-badge)
+[![B.S. Bioscience](https://img.shields.io/badge/B.S._Bioscience-SCAU-7c3aed?style=flat-square)](https://scau.edu.cn)
+[![AI President](https://img.shields.io/badge/AI_Association_President-Tech_Lead-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+[![Badminton Captain](https://img.shields.io/badge/Badminton_Captain-Media_Dept-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+[![Taurus Robotics](https://img.shields.io/badge/Taurus_Robotics-7c3aed?style=flat-square)](https://github.com/Linmoqian)
 
 </div>
 
