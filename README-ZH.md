@@ -48,25 +48,58 @@
 
 ### 我的身份
 
-```text
-                            2024
-                               |
-                  +------------+------------+
-                  |            |            |
-            生物科学      AI协会会长      羽球队队长
-            本科入学      技术部部长      全媒体创意部
-            华南农业                   视频剪辑
-            大学
+<div align="center">
 
-               Taurus 机器人战队
-```
+<table>
+<tr>
+<td width="50%">
 
 <div align="center">
 
-[![B.S. Bioscience](https://img.shields.io/badge/生物科学本科-SCAU-7c3aed?style=flat-square)](https://scau.edu.cn)
-[![AI President](https://img.shields.io/badge/AI协会会长-技术部部长-7c3aed?style=flat-square)](https://github.com/Linmoqian)
-[![Badminton Captain](https://img.shields.io/badge/羽球队队长-全媒体创意部-7c3aed?style=flat-square)](https://github.com/Linmoqian)
-[![Taurus Robotics](https://img.shields.io/badge/Taurus_机器人战队-7c3aed?style=flat-square)](https://github.com/Linmoqian)
+[![Education](https://img.shields.io/badge/-生物科学本科-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://scau.edu.cn)
+
+**华南农业大学**
+2024-2028
+
+</div>
+</td>
+<td width="50%">
+
+<div align="center">
+
+[![Leadership](https://img.shields.io/badge/-AI协会会长-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwb2x5Z29uIHBvaW50cz0iMTIgMiAxNSA5IDkgOSAxMiAyIi8+PHBvbHlnb24gcG9pbnRzPSIxMiAyMiA5IDE1IDE1IDE1IDEyIDIyIi8+PHBvbHlnb24gcG9pbnRzPSIyIDEyIDkgOSA5IDE1IDIgMTIiLz48cG9seWdvbiBwb2ludHM9IjIyIDEyIDE1IDkgMTUgMTUgMjIgMTIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian)
+
+**技术部部长**
+Taurus 机器人战队
+
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<div align="center">
+
+[![Sports](https://img.shields.io/badge/-羽球队队长-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iOCIgcj0iNSIvPjxwYXRoIGQ9Ik0xMiAxM3Y5Ii8+PHBhdGggZD0iTTEyIDE4bDQgNCIvPjxwYXRoIGQ9Ik0xMiAxOGwtNCA0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian)
+
+**全媒体创意部**
+视频剪辑
+
+</div>
+</td>
+<td width="50%">
+
+<div align="center">
+
+[![Robotics](https://img.shields.io/badge/-机器人战队-7c3aed?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian)
+
+**Taurus Robotics**
+智能硬件开发
+
+</div>
+</td>
+</tr>
+</table>
 
 </div>
 
