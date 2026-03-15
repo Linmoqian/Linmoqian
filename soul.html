@@ -151,6 +151,121 @@
         const starField = createStarField();
         console.log('✓ 星空背景创建完成');
 
+        // === DNA螺旋灵魂形态 ===
+        function createSpiralSoul() {
+            const group = new THREE.Group();
+
+            // 螺旋参数
+            const turns = 3;           // 螺旋圈数
+            const pointsPerTurn = 200; // 每圈点数
+            const radius = 80;         // 螺旋半径
+            const height = 400;        // 螺旋高度
+            const tubeRadius = 3;      // 粒子管径
+
+            // 两条链的颜色
+            const chain1Color = new THREE.Color(0x7c3aed);
+            const chain2Color = new THREE.Color(0xc084fc);
+
+            for (let chain = 0; chain < 2; chain++) {
+                const geometry = new THREE.BufferGeometry();
+                const positions = [];
+                const colors = [];
+
+                for (let i = 0; i <= turns * pointsPerTurn; i++) {
+                    const t = i / pointsPerTurn;
+                    const angle = t * Math.PI * 2;
+                    const y = (t / turns - 0.5) * height;
+
+                    // 双螺旋偏移
+                    const phase = chain * Math.PI;
+                    const x = Math.cos(angle + phase) * radius;
+                    const z = Math.sin(angle + phase) * radius;
+
+                    positions.push(x, y, z);
+
+                    // 颜色渐变
+                    const color = chain === 0 ? chain1Color : chain2Color;
+                    const gradient = (Math.sin(t * Math.PI) + 1) / 2;
+                    colors.push(
+                        color.r * (0.5 + gradient * 0.5),
+                        color.g * (0.5 + gradient * 0.5),
+                        color.b * (0.5 + gradient * 0.5)
+                    );
+                }
+
+                geometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+                geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+
+                const material = new THREE.PointsMaterial({
+                    size: tubeRadius * 2,
+                    vertexColors: true,
+                    transparent: true,
+                    opacity: 0.9,
+                    blending: THREE.AdditiveBlending
+                });
+
+                const points = new THREE.Points(geometry, material);
+                group.add(points);
+            }
+
+            // 添加连接线（碱基对）
+            const baseGeometry = new THREE.BufferGeometry();
+            const basePositions = [];
+            const baseColors = [];
+
+            for (let i = 0; i < turns * pointsPerTurn; i += 5) {
+                const t = i / pointsPerTurn;
+                const angle = t * Math.PI * 2;
+                const y = (t / turns - 0.5) * height;
+
+                // 链1位置
+                basePositions.push(
+                    Math.cos(angle) * radius,
+                    y,
+                    Math.sin(angle) * radius
+                );
+
+                // 链2位置
+                basePositions.push(
+                    Math.cos(angle + Math.PI) * radius,
+                    y,
+                    Math.sin(angle + Math.PI) * radius
+                );
+
+                // 流光颜色
+                const hue = (t + performance.now() * 0.0001) % 1;
+                const color = new THREE.Color().setHSL(0.75 + hue * 0.15, 0.8, 0.6);
+                baseColors.push(color.r, color.g, color.b);
+                baseColors.push(color.r, color.g, color.b);
+            }
+
+            baseGeometry.setAttribute('position', new THREE.Float32BufferAttribute(basePositions, 3));
+            baseGeometry.setAttribute('color', new THREE.Float32BufferAttribute(baseColors, 3));
+
+            const baseMaterial = new THREE.LineBasicMaterial({
+                vertexColors: true,
+                transparent: true,
+                opacity: 0.4,
+                blending: THREE.AdditiveBlending
+            });
+
+            const baseLines = new THREE.LineSegments(baseGeometry, baseMaterial);
+            group.add(baseLines);
+
+            scene.add(group);
+
+            // 动画数据
+            group.userData = {
+                breathePhase: 0,
+                breatheSpeed: 0.001
+            };
+
+            return group;
+        }
+
+        const spiralSoul = createSpiralSoul();
+        console.log('✓ 螺旋灵魂形态创建完成');
+
         // === 动画循环 ===
         function animate() {
             requestAnimationFrame(animate);
@@ -158,6 +273,14 @@
             // 星空旋转
             starField.rotation.x += starField.userData.rotationSpeed.x;
             starField.rotation.y += starField.userData.rotationSpeed.y;
+
+            // 呼吸效果
+            spiralSoul.userData.breathePhase += spiralSoul.userData.breatheSpeed;
+            const breatheScale = 1 + Math.sin(spiralSoul.userData.breathePhase) * 0.1;
+            spiralSoul.scale.set(breatheScale, breatheScale, breatheScale);
+
+            // 缓慢旋转
+            spiralSoul.rotation.y += 0.002;
 
             controls.update();
             renderer.render(scene, camera);
