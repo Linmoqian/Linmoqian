@@ -110,7 +110,7 @@
 
 <div align="center">
 
-[![3D展示](https://img.shields.io/badge/🌌_探索灵魂空间-7c3aed?style=for-the-badge)](soul.html)
+[![3D展示](https://img.shields.io/badge/🌌_探索灵魂空间-7c3aed?style=for-the-badge)](https://linmoqian.github.io/Linmoqian/soul.html)
 
 </div>
 

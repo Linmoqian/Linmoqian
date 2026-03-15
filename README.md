@@ -110,7 +110,7 @@
 
 <div align="center">
 
-[![3D Soul](https://img.shields.io/badge/🌌_Explore_Soul_Space-7c3aed?style=for-the-badge)](soul.html)
+[![3D Soul](https://img.shields.io/badge/🌌_Explore_Soul_Space-7c3aed?style=for-the-badge)](https://linmoqian.github.io/Linmoqian/soul.html)
 
 </div>
 
