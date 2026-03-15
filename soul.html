@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>灵魂归处 | Soul's Home</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { overflow: hidden; background: #0f0f23; font-family: 'Georgia', serif; }
+        #canvas-container { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; }
+        #quote {
+            position: fixed;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: rgba(192, 132, 252, 0.9);
+            text-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+            pointer-events: none;
+            z-index: 10;
+        }
+        #quote .zh { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        #quote .en { font-size: 1rem; opacity: 0.8; font-style: italic; }
+        #loading {
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            color: #c084fc;
+            font-size: 1.2rem;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading">灵魂正在凝聚...</div>
+    <div id="canvas-container"></div>
+    <div id="quote">
+        <div class="zh">非选择的战场，乃灵魂的归处。</div>
+        <div class="en">Not a battlefield of choice, but the home of the soul.</div>
+    </div>
+    <script type="module">
+        import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
+        import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js';
+
+        // 代码将在后续任务中添加
+    </script>
+</body>
+</html>
