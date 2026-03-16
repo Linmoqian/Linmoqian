@@ -12,9 +12,9 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&width=700&height=110&lines=Linmoqian;Biology+%2B+Tech+%3D+Infinite+Possibilities" alt="Typing SVG" />
 
-[![Website](https://img.shields.io/badge/🌐_linfengchen.com-7c3aed?style=flat-square)](https://linfengchen.com)
+[![Website](https://img.shields.io/badge/linfengchen.com-7c3aed?style=flat-square)](https://linfengchen.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
-[![Email](https://img.shields.io/badge/📧_Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
 
 </div>
 
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-## 📌 Quick Navigation
+## Quick Navigation
 
 *[快速导航到各个区块]*
 
@@ -87,7 +87,7 @@
 
 <div align="center">
 
-## 👤 About Me
+## About Me
 
 </div>
 
@@ -107,7 +107,7 @@ At twenty, I stand at the intersection of two worlds—on one side, the miracle 
 
 ---
 
-### 🎭 My Identity
+### My Identity
 
 *[身份标签]*
 
@@ -168,7 +168,7 @@ Smart Hardware Development
 
 ---
 
-### 💭 Philosophy
+### Philosophy
 
 *[哲学思考]*
 
@@ -191,7 +191,7 @@ The true miracle happens in that boundary-blurring, collision-stirring sea. Ther
 
 ---
 
-### 🔍 Reflections
+### Reflections
 
 *[深度思考]*
 
@@ -205,7 +205,7 @@ Between exploring life's mysteries and writing code, I often pause to gaze at th
 
 ---
 
-## 🎯 Areas of Interest
+## Areas of Interest
 
 *At the intersection of life and code, I found these directions:*
 
@@ -293,7 +293,7 @@ React · STM32 · OpenCV
 
 ---
 
-## 🔧 Engineering Practice
+## Engineering Practice
 
 *[工程实践]*
 
@@ -383,7 +383,7 @@ test · chore
 
 ---
 
-## 🌟 Open Source Contributions
+## Open Source Contributions
 
 *[开源贡献]*
 
@@ -458,7 +458,7 @@ Issue Resolution
 
 ---
 
-## 🏆 Honors & Awards
+## Honors & Awards
 
 *[荣誉奖项]*
 
@@ -533,7 +533,7 @@ Life Sciences Competition
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 *[精选项目]*
 
@@ -618,7 +618,7 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 *[数据统计]*
 
@@ -637,7 +637,7 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-## 📬 Contact
+## Contact
 
 *[联系方式]*
 
@@ -661,11 +661,11 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-**⭐ Star** · **👀 Follow** · **🤝 Connect**
+**Star** · **Follow** · **Connect**
 
 ---
 
-## 🌐 Language / 语言
+## Language / 语言
 
 **[English Version](README.md)** | **[中文版本](README-ZH.md)**
 

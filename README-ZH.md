@@ -12,9 +12,9 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&width=700&height=110&lines=Linmoqian;生物+%2B+技术+%3D+无限可能" alt="Typing SVG" />
 
-[![Website](https://img.shields.io/badge/🌐_linfengchen.com-7c3aed?style=flat-square)](https://linfengchen.com)
+[![Website](https://img.shields.io/badge/linfengchen.com-7c3aed?style=flat-square)](https://linfengchen.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
-[![Email](https://img.shields.io/badge/📧_Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
 
 </div>
 
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-## 📌 快速导航
+## 快速导航
 
 *[快速导航到各个区块]*
 
@@ -87,7 +87,7 @@
 
 <div align="center">
 
-## 👤 关于我
+## 关于我
 
 </div>
 
@@ -107,7 +107,7 @@
 
 ---
 
-### 🎭 我的身份
+### 我的身份
 
 *[身份标签]*
 
@@ -189,7 +189,7 @@
 
 ---
 
-### 🔍 思索
+### 思索
 
 *[深度思考]*
 
@@ -203,7 +203,7 @@
 
 ---
 
-## 🎯 热爱的领域
+## 热爱的领域
 
 *在生命与代码的交汇处，我找到了这些方向：*
 
@@ -291,7 +291,7 @@ React · STM32 · OpenCV
 
 ---
 
-## 🔧 工程实践
+## 工程实践
 
 *[技术能力]*
 
@@ -381,7 +381,7 @@ test · chore
 
 ---
 
-## 🌟 开源贡献
+## 开源贡献
 
 *[社区贡献]*
 
@@ -456,7 +456,7 @@ test · chore
 
 ---
 
-## 🏆 荣誉与奖项
+## 荣誉与奖项
 
 *[成就认可]*
 
@@ -531,7 +531,7 @@ AI 科学挑战赛
 
 ---
 
-## 🚀 精选项目
+## 精选项目
 
 *[重点项目]*
 
@@ -616,7 +616,7 @@ AI 科学挑战赛
 
 ---
 
-## 📊 GitHub 数据
+## GitHub 数据
 
 *[数据统计]*
 
@@ -635,7 +635,7 @@ AI 科学挑战赛
 
 ---
 
-## 📬 联系方式
+## 联系方式
 
 *[保持联系]*
 
@@ -659,11 +659,11 @@ AI 科学挑战赛
 
 ---
 
-**⭐ Star** · **👀 Follow** · **🤝 Connect**
+**Star** · **Follow** · **Connect**
 
 ---
 
-## 🌐 语言切换 / Language
+## 语言切换 / Language
 
 *[Language / 语言]*
 
