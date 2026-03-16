@@ -671,18 +671,4 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-### 🌌 Soul Space Preview
-
-*[3D 灵魂空间预览]*
-
-<div align="center">
-
-<img src="assets/soul-preview.gif" alt="Soul Space 3D Animation Preview" width="60%" style="border-radius: 8px;">
-
-*[Experience the full 3D interactive version →](https://linmoqian.github.io/Linmoqian/soul.html)*
-
-</div>
-
----
-
 </div>
