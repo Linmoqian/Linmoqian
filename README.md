@@ -83,12 +83,6 @@
 
 </div>
 
-<br>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Linmoqian/Linmoqian/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" loading="lazy" />
-</p>
-
 ---
 
 <div align="center">
@@ -690,7 +684,5 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 </div>
 
 ---
-
-<img src="https://raw.githubusercontent.com/Linmoqian/Linmoqian/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation - Footer" loading="lazy" style="max-width: 100%;" />
 
 </div>

@@ -83,12 +83,6 @@
 
 </div>
 
-<br>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Linmoqian/Linmoqian/assets/github-contribution-grid-snake.svg" alt="GitHub 贡献热力图动画" loading="lazy" />
-</p>
-
 ---
 
 <div align="center">
@@ -676,7 +670,5 @@ AI 科学挑战赛
 **[English Version](README.md)** | **[中文版本](README-ZH.md)**
 
 ---
-
-<img src="https://raw.githubusercontent.com/Linmoqian/Linmoqian/assets/github-contribution-grid-snake.svg" alt="GitHub 贡献热力图动画 - Footer" loading="lazy" style="max-width: 100%;" />
 
 </div>
