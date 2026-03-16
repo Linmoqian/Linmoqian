@@ -4,14 +4,6 @@
 
 **[English](README.md)** | **[中文](README-ZH.md)**
 
-<br>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&width=700&height=110&lines=Linmoqian;生物+%2B+技术+%3D+无限可能" alt="Typing SVG" />
-
-[![Website](https://img.shields.io/badge/-linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://linfengchen.com)
-[![GitHub](https://img.shields.io/badge/Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
-[![Email](https://img.shields.io/badge/smkxxyclf@stu.scau.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
-
 </div>
 
 ---
