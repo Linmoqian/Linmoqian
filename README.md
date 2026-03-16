@@ -545,8 +545,6 @@ Life Sciences Competition
 
 <div align="center">
 
-[![Soybean Phenotype](https://img.shields.io/badge/Soybean_Phenotype-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/soybean-phenotype)
-[![Harvesting Robot](https://img.shields.io/badge/Harvesting_Robot-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian/harvesting-robot)
 [![DNA Expression](https://img.shields.io/badge/DNA_Expression-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yIDEyczo2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48cGF0aCBkPSJNMiAxMnM2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/dna-expression)
 [![AI Website](https://img.shields.io/badge/AI_Website-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMnExNS4zIDE1LjMgMCAwIDEgMTAgMTAiLz48cGF0aCBkPSJNMTIgMjJxMTUuMy0xNS4zIDAgMCAxLTEwLTEwIi8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/ai-association-website)
 [![LLM Robot Arm](https://img.shields.io/badge/LLM_Robot_Arm-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgcng9IjIiLz48cmVjdCB4PSIxNSIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiByeD0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSI1IiByPSIyIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTYgMTB2NCIvPjxwYXRoIGQ9Ik0xOCAxMHY0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/llm-robotic-arm)
@@ -554,52 +552,6 @@ Life Sciences Competition
 </div>
 
 <br>
-
-<details>
-<summary><b>Soybean Phenotype Recognition System</b></summary>
-<br>
-
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
-![Stars](https://img.shields.io/github/stars/Linmoqian/soybean-phenotype?style=flat-square)
-![License](https://img.shields.io/github/license/Linmoqian/soybean-phenotype?style=flat-square)
-
-When algorithms learn to read the language of fields, every plant has a name.
-
-An agricultural vision recognition system based on improved YOLO, enabling machines to identify life forms among green waves. Between furrows and pixels, I translate nature's language with code.
-
-| Metric | Value |
-| :--- | :---: |
-| mAP@0.5 | 94.2% |
-| Inference Speed | 25 FPS |
-| Dataset Size | 10,000+ labeled samples |
-
-- **Tech Stack**: Python, PyTorch, YOLOv8, OpenCV
-- **[Source Code](https://github.com/Linmoqian/soybean-phenotype)**
-
-</details>
-
-<details>
-<summary><b>Harvesting Robot</b></summary>
-<br>
-
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
-![Stars](https://img.shields.io/github/stars/Linmoqian/harvesting-robot?style=flat-square)
-![License](https://img.shields.io/github/license/Linmoqian/harvesting-robot?style=flat-square)
-
-Give the robotic arm eyes, let it learn gentle touch among fruits.
-
-An intelligent harvesting robot based on ROS2, finding the perfect balance between precision and force—like human fingers, both steady and gentle.
-
-| Metric | Value |
-| :--- | :---: |
-| Recognition Accuracy | 96.5% |
-| Grasp Success Rate | 92.8% |
-| Degrees of Freedom | 6-DOF |
-
-- **Tech Stack**: ROS2, Python, OpenCV, MoveIt, STM32
-- **[Source Code](https://github.com/Linmoqian/harvesting-robot)**
-
-</details>
 
 <details>
 <summary><b>DNA Expression Prediction Model</b></summary>
