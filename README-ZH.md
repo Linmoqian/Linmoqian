@@ -551,8 +551,6 @@ AI 科学挑战赛
 
 <div align="center">
 
-[![Soybean Phenotype](https://img.shields.io/badge/大豆表型识别-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTUtMTAtNXoiLz48cGF0aCBkPSJNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTVMlA3bDQgMjJtMTYtMjJsLTQgMjIiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/soybean-phenotype)
-[![Harvesting Robot](https://img.shields.io/badge/采摘机器人-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIi8+PGNpcmNsZSBjeD0iMTIiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTggN3Y4Ii8+PHBhdGggZD0iTTE2IDd2OCIvPjwvc3ZnPg==&logoColor=white)](https://github.com/Linmoqian/harvesting-robot)
 [![DNA Expression](https://img.shields.io/badge/DNA表达预测-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yIDEyczo2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48cGF0aCBkPSJNMiAxMnM2IDYgNi02Ii8+PHBhdGggZD0iTTIyIDEyczYtNiA2LTYiLz48L3N2Zz4=&logoColor=white)](https://github.com/Linmoqian/dna-expression)
 [![AI Website](https://img.shields.io/badge/AI协会官网-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMnExNS4zIDE1LjMgMCAwIDEgMTAgMTAiLz48cGF0aCBkPSJNMTIgMjJxMTUuMy0xNS4zIDAgMCAxLTEwLTEwIi8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/ai-association-website)
 [![LLM Robot Arm](https://img.shields.io/badge/LLM机械臂控制-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgcng9IjIiLz48cmVjdCB4PSIxNSIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiByeD0iMiIvPjxjaXJjbGUgY3g9IjYiIGN5PSI1IiByPSIyIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI1IiByPSIyIi8+PHBhdGggZD0iTTYgMTB2NCIvPjxwYXRoIGQ9Ik0xOCAxMHY0Ii8+PC9zdmc+&logoColor=white)](https://github.com/Linmoqian/llm-robotic-arm)
@@ -560,52 +558,6 @@ AI 科学挑战赛
 </div>
 
 <br>
-
-<details>
-<summary><b>大豆表型识别系统</b></summary>
-<br>
-
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
-![Stars](https://img.shields.io/github/stars/Linmoqian/soybean-phenotype?style=flat-square)
-![License](https://img.shields.io/github/license/Linmoqian/soybean-phenotype?style=flat-square)
-
-当算法学会读懂田野的语言，每一株植物都有了名字。
-
-基于改进 YOLO 的农业视觉识别系统，让机器于绿浪间辨识生命之形态。在田垄与像素之间，我以代码翻译大自然之语言。
-
-| 指标 | 数值 |
-| :--- | :---: |
-| mAP@0.5 | 94.2% |
-| 推理速度 | 25 FPS |
-| 数据集规模 | 10,000+ 标注样本 |
-
-- **技术栈**: Python, PyTorch, YOLOv8, OpenCV
-- **[源码](https://github.com/Linmoqian/soybean-phenotype)**
-
-</details>
-
-<details>
-<summary><b>采摘机器人</b></summary>
-<br>
-
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
-![Stars](https://img.shields.io/github/stars/Linmoqian/harvesting-robot?style=flat-square)
-![License](https://img.shields.io/github/license/Linmoqian/harvesting-robot?style=flat-square)
-
-给机械臂一双眼睛，让它在果实间学会温柔的触碰。
-
-基于 ROS2 的智能采摘机器人，在精准与力度之间，寻找恰到好处的平衡——如人类的手指，既稳当，又温柔。
-
-| 指标 | 数值 |
-| :--- | :---: |
-| 识别准确率 | 96.5% |
-| 抓取成功率 | 92.8% |
-| 自由度 | 6-DOF |
-
-- **技术栈**: ROS2, Python, OpenCV, MoveIt, STM32
-- **[源码](https://github.com/Linmoqian/harvesting-robot)**
-
-</details>
 
 <details>
 <summary><b>DNA 表达预测模型</b></summary>
