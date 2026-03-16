@@ -14,32 +14,29 @@
 
 </div>
 
-<style>
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-@keyframes slideIn {
-  0% { opacity: 0; transform: translateY(-15px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-@keyframes pulse {
-  0%, 100% { opacity: 0.7; }
-  50% { opacity: 1; text-shadow: 0 0 10px rgba(124, 58, 237, 0.5); }
-}
-.typewriter-quote {
-  display: inline-block;
-  animation: slideIn 0.8s ease-out forwards, pulse 3s ease-in-out infinite;
-}
-.fade-float-quote {
-  display: inline-block;
-  animation: fadeIn 1.2s ease-out forwards;
-}
-</style>
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&width=700&height=110&lines=Linmoqian;生物+%2B+技术+%3D+无限可能" alt="Typing SVG" />
+
+[![Website](https://img.shields.io/badge/🌐_linfengchen.com-7c3aed?style=flat-square)](https://linfengchen.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
+[![Email](https://img.shields.io/badge/📧_Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
+
+</div>
 
 <br>
 
-## 快速导航
+<div align="center">
+
+## 📌 快速导航
+
+*[快速导航到各个区块]*
+
+</div>
+
+<br>
 
 <div align="center">
 
@@ -102,11 +99,15 @@
 
 ---
 
-## 关于我
+<div align="center">
+
+## 👤 关于我
+
+</div>
 
 ![陈林锋的个人头像](assets/images/avatar.jpg)
 
-> <span class="typewriter-quote">**"边界不是终点，而是起点。"**</span>
+> **"边界不是终点，而是起点。"**
 
 <div align="center">
 
@@ -120,7 +121,9 @@
 
 ---
 
-### 我的身份
+### 🎭 我的身份
+
+*[身份标签]*
 
 <div align="center">
 
@@ -200,9 +203,11 @@
 
 ---
 
-### 思索
+### 🔍 思索
 
-> <span class="fade-float-quote">**"头顶璀璨星空，心中深邃律令。"**</span>
+*[深度思考]*
+
+> **"头顶璀璨星空，心中深邃律令。"**
 
 康德言，有二物愈久愈令人敬畏—
 **头顶之星空**：宇宙之浩瀚与秩序，万物之运行与法则
@@ -212,9 +217,9 @@
 
 ---
 
-## 热爱的领域
+## 🎯 热爱的领域
 
-**在生命与代码的交汇处，我找到了这些方向：**
+*在生命与代码的交汇处，我找到了这些方向：*
 
 <div align="center">
 
@@ -300,7 +305,9 @@ React · STM32 · OpenCV
 
 ---
 
-## 工程实践
+## 🔧 工程实践
+
+*[技术能力]*
 
 > <span class="typewriter-quote">**"代码为人而写，机器偶一执行。"**</span>
 
@@ -370,10 +377,10 @@ Conventional Commits
 
 **Git Flow 工作流**
 
-main — 生产环境
-develop — 开发主分支
-feature/* — 功能开发
-hotfix/* — 紧急修复
+`main` — 生产环境
+`develop` — 开发主分支
+`feature/*` — 功能开发
+`hotfix/*` — 紧急修复
 
 **Commit 规范**
 feat · fix · docs · refactor
@@ -388,7 +395,9 @@ test · chore
 
 ---
 
-## 开源贡献
+## 🌟 开源贡献
+
+*[社区贡献]*
 
 <div align="center">
 
@@ -461,7 +470,9 @@ test · chore
 
 ---
 
-## 荣誉与奖项
+## 🏆 荣誉与奖项
+
+*[成就认可]*
 
 <div align="center">
 
@@ -534,7 +545,9 @@ AI 科学挑战赛
 
 ---
 
-## 精选项目
+## 🚀 精选项目
+
+*[重点项目]*
 
 <div align="center">
 
@@ -665,7 +678,9 @@ AI 科学挑战赛
 
 ---
 
-## GitHub 数据
+## 📊 GitHub 数据
+
+*[数据统计]*
 
 <div align="center">
 
@@ -682,7 +697,9 @@ AI 科学挑战赛
 
 ---
 
-## 联系方式
+## 📬 联系方式
+
+*[保持联系]*
 
 <div align="center">
 
@@ -698,31 +715,19 @@ AI 科学挑战赛
 
 ---
 
-<style>
-@keyframes float {
-  0%, 100% { transform: translateY(0px); text-shadow: 0 0 5px rgba(124, 58, 237, 0.3); }
-  50% { transform: translateY(-8px); text-shadow: 0 8px 16px rgba(124, 58, 237, 0.4); }
-}
-.floating-quote {
-  animation: float 4s ease-in-out infinite;
-  display: inline-block;
-}
-</style>
-
-> <span class="floating-quote">**"生物学遇见代码，**</span>
-> <span class="floating-quote" style="animation-delay: 0.2s;">**理性遇见创造，**</span>
-> <span class="floating-quote" style="animation-delay: 0.4s;">**已知遇见未知。**</span>
+> **"生物学遇见代码，理性遇见创造，已知遇见未知。"**
 >
-> <span class="floating-quote" style="animation-delay: 0.6s;">**非选择的战场，**</span>
-> <span class="floating-quote" style="animation-delay: 0.8s;">**乃灵魂的归处。"**</span>
+> **"非选择的战场，乃灵魂的归处。"**
 
 ---
 
-**Star** · **Follow** · **Connect**
+**⭐ Star** · **👀 Follow** · **🤝 Connect**
 
 ---
 
-## 语言切换 / Language
+## 🌐 语言切换 / Language
+
+*[Language / 语言]*
 
 **[English Version](README.md)** | **[中文版本](README-ZH.md)**
 
