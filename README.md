@@ -4,19 +4,31 @@
 
 **[English](README.md)** | **[中文](README-ZH.md)**
 
-<br>
+</div>
+
+---
+
+<div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=7c3aed&center=true&vCenter=true&multiline=true&width=700&height=110&lines=Linmoqian;Biology+%2B+Tech+%3D+Infinite+Possibilities" alt="Typing SVG" />
 
-[![Website](https://img.shields.io/badge/-linfengchen.com-7c3aed?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAwIDEgMTAgMTAgMTAgMTAgMCAwIDEtMTAtMTBtMCAxOGE4IDggMCAwIDAtOC04IDggOCAwIDAgMCA4IDhtMC0xM2E1IDUgMCAwIDAtNSA1IDUgNSAwIDAgMCA1IDVtMCA4YTMgMyAwIDAgMS0zLTMgMyAzIDAgMCAxIDMgMyIvPjwvc3ZnPg==&logoColor=white)](https://linfengchen.com)
-[![GitHub](https://img.shields.io/badge/Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
-[![Email](https://img.shields.io/badge/smkxxyclf@stu.scau.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
+[![Website](https://img.shields.io/badge/🌐_linfengchen.com-7c3aed?style=flat-square)](https://linfengchen.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Linmoqian-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/Linmoqian)
+[![Email](https://img.shields.io/badge/📧_Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:smkxxyclf@stu.scau.edu.cn)
 
 </div>
 
 <br>
 
-## Quick Navigation
+<div align="center">
+
+## 📌 Quick Navigation
+
+*[快速导航到各个区块]*
+
+</div>
+
+<br>
 
 <div align="center">
 
@@ -79,7 +91,11 @@
 
 ---
 
-## About Me
+<div align="center">
+
+## 👤 About Me
+
+</div>
 
 ![My Avatar](assets/images/avatar.jpg)
 
@@ -97,7 +113,9 @@ At twenty, I stand at the intersection of two worlds—on one side, the miracle 
 
 ---
 
-### My Identity
+### 🎭 My Identity
+
+*[身份标签]*
 
 <div align="center">
 
@@ -156,7 +174,9 @@ Smart Hardware Development
 
 ---
 
-### Philosophy
+### 💭 Philosophy
+
+*[哲学思考]*
 
 In my world, two rivers converge:
 
@@ -177,7 +197,9 @@ The true miracle happens in that boundary-blurring, collision-stirring sea. Ther
 
 ---
 
-### Reflections
+### 🔍 Reflections
+
+*[深度思考]*
 
 > **"The starry heavens above and the moral law within, worth contemplating."**
 
@@ -189,9 +211,9 @@ Between exploring life's mysteries and writing code, I often pause to gaze at th
 
 ---
 
-## Areas of Interest
+## 🎯 Areas of Interest
 
-**At the intersection of life and code, I found these directions:**
+*At the intersection of life and code, I found these directions:*
 
 <div align="center">
 
@@ -277,7 +299,9 @@ React · STM32 · OpenCV
 
 ---
 
-## Engineering Practice
+## 🔧 Engineering Practice
+
+*[工程实践]*
 
 > **"Code is written for humans to read, only incidentally for machines to execute."**
 
@@ -365,7 +389,9 @@ test · chore
 
 ---
 
-## Open Source Contributions
+## 🌟 Open Source Contributions
+
+*[开源贡献]*
 
 <div align="center">
 
@@ -438,7 +464,9 @@ Issue Resolution
 
 ---
 
-## Honors & Awards
+## 🏆 Honors & Awards
+
+*[荣誉奖项]*
 
 <div align="center">
 
@@ -511,7 +539,9 @@ Life Sciences Competition
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
+
+*[精选项目]*
 
 <div align="center">
 
@@ -642,7 +672,9 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
+
+*[数据统计]*
 
 <div align="center">
 
@@ -659,7 +691,9 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-## Contact
+## 📬 Contact
+
+*[联系方式]*
 
 <div align="center">
 
@@ -675,23 +709,25 @@ A natural language robotic arm control system based on LeRobot and Ollama, enabl
 
 ---
 
-> **"Where biology meets code,** **Where reason meets creation,** **Where known meets unknown.****
+> **"Where biology meets code, where reason meets creation, where known meets unknown."**
 >
-> **"Not a battlefield of choice,** **But the home of the soul."**
+> **"Not a battlefield of choice, but the home of the soul."**
 
 ---
 
-**Star** · **Follow** · **Connect**
+**⭐ Star** · **👀 Follow** · **🤝 Connect**
 
 ---
 
-## Language / 语言
+## 🌐 Language / 语言
 
 **[English Version](README.md)** | **[中文版本](README-ZH.md)**
 
 ---
 
 ### 🌌 Soul Space Preview
+
+*[3D 灵魂空间预览]*
 
 <div align="center">
 
