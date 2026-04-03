@@ -3,7 +3,8 @@
     "allow": [
       "mcp__filesystem__create_directory",
       "Bash(GIT_SEQUENCE_EDITOR=\"sed -i '''' ''s/^pick/reword/''\" git rebase -i HEAD~4)",
-      "Bash(where ffmpeg:*)"
+      "Bash(where ffmpeg:*)",
+      "Bash(ls D:/project/Linmoqian/README*.md)"
     ]
   }
 }
