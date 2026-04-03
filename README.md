@@ -1,22 +1,4 @@
-<div align="center">
-
-<h3>选择语言 / Select Language</h3>
-
-**[English](README.md)** | **[中文](README-ZH.md)**
-
-</div>
-
-<br>
-
-<div align="center">
-
-</a>
-</td>
-<td width="25%" valign="top">
-</a>
-</tr>
-
-</div>
+**English** | **[中文](README-ZH.md)**
 
 ---
 
