@@ -11,9 +11,9 @@
 
 > **“边界不是终点，而是起点。”**
 
-[个人博客](https://linfengchen.com) 
+[个人博客](https://linfengchen.com)
 
-![alt text](assets/images/led.jpg)
+<img src="assets/images/led.jpg" alt="LED light display" width="300">
 
 </div>
 
@@ -53,6 +53,9 @@
 ### 1. [DNA_CNN_predict](https://github.com/Linmoqian/DNA_CNN_predict)
 **CNN 预测 DNA 表达**
 
+![alt text](图片.png)
+
+
 基于卷积神经网络，从 DNA 序列中预测表达模式，探索序列结构与生物功能之间的映射关系。
 
 **Tech Stack:** `Python` `PyTorch` `CNN` `Bioinformatics`
@@ -66,6 +69,8 @@
 
 ### 2. [claw_arm](https://github.com/Linmoqian/claw_arm)
 **Agent 控制机械臂**
+
+![alt text](<movie (1).gif>)
 
 尝试将智能体逻辑接入机械臂控制流程，让决策系统与物理执行系统形成闭环。
 
