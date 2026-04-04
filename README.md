@@ -1,8 +1,9 @@
+
+<div align="center">
+
 **[English](README.md)** | **[中文](README-ZH.md)**
 
 ---
-
-<div align="center">
 
 ### AI × Biology × Robotics
 
