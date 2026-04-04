@@ -53,6 +53,8 @@ but **systems that carry ideas, map reality, and continuously evolve.**
 
 **CNN-based DNA Expression Prediction**
 
+![alt text](图片.png)
+
 Using convolutional neural networks to predict expression patterns from DNA sequences, exploring the mapping between sequence structure and biological function.
 
 **Tech Stack:** `Python` `PyTorch` `CNN` `Bioinformatics`
@@ -68,6 +70,8 @@ Using convolutional neural networks to predict expression patterns from DNA sequ
 ### 2. [claw_arm](https://github.com/Linmoqian/claw_arm)
 
 **Agent-controlled Robotic Arm**
+
+![alt text](<movie (1).gif>)
 
 Integrating agent logic into robotic arm control, forming a closed loop between decision-making and physical execution.
 
