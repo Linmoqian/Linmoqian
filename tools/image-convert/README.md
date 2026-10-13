@@ -21,7 +21,7 @@ uv run image_convert.py
 | WebP 质量 | 82 |
 | 长边像素 | 1920，填 0 表示不缩放 |
 
-原图不修改，只读不写。已有同名输出的图片会跳过，删除输出目录里的对应文件即可重新转换。
+原图不修改，只读不写。已有同名输出且不比原图旧的图片会跳过；原图被替换过（文件时间更新）会重新转换。输出目录与图集目录相同时，已生成的 `.webp` 原样保留，不会自我重压。
 
 ## 非交互运行
 
@@ -34,5 +34,15 @@ $env:IMG_QUALITY = '82'
 $env:IMG_MAX_EDGE = '1920'
 uv run image_convert.py
 ```
+
+| 环境变量 | 默认值 | 说明 |
+| --- | --- | --- |
+| `IMG_SOURCE` | 无，必填 | 图集目录，非交互运行必须提供 |
+| `IMG_OUTPUT` | `<图集名>_webp` | 输出目录，允许尚不存在 |
+| `IMG_QUALITY` | `82` | WebP 质量 |
+| `IMG_MAX_EDGE` | `1920` | 长边像素，`0` 表示不缩放 |
+| `IMG_FORCE` | 不设 | 设为 `1` 时忽略已有输出强制重压 |
+
+仓库的 `.github/workflows/image-compress.yml` 用同一脚本做自动化：推送到 main 且改动涉及 `assets/images/**` 时，在 CI 里强制重压并把新的 `.webp` 提交回仓库。CI 使用 `IMG_FORCE=1`，因为干净检出后的文件时间不可靠。
 
 网络无法直连 PyPI 时，同步依赖可指定镜像源：`uv sync --default-index https://mirrors.aliyun.com/pypi/simple/`。

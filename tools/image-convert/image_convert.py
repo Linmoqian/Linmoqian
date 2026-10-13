@@ -10,6 +10,8 @@ from PIL import Image, ImageOps
 
 # 仅处理常见位图格式，HEIC、RAW 等需要额外解码器
 SOURCE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
+# 本工具只产出 WebP，用于识别已经生成过的成品文件
+TARGET_SUFFIXES = {".webp"}
 DEFAULT_QUALITY = 82
 DEFAULT_MAX_EDGE = 1920
 # 编码 method 取 6，在压缩率与耗时之间取平衡
@@ -24,6 +26,9 @@ CYAN = "\033[36m"
 RESET = "\033[0m"
 # 重定向输出、CI 或设置 NO_COLOR 时降级为纯文本标签
 USE_COLOR = sys.stdout.isatty() and not os.environ.get("NO_COLOR")
+# IMG_FORCE=1 时忽略已有输出强制重压；干净检出后的文件时间不可靠，
+# CI 靠它保证输出始终与原图一致
+FORCE_REDO = os.environ.get("IMG_FORCE", "").strip().lower() in {"1", "true", "yes"}
 
 
 def tagged(tag: str, color: str) -> str:
@@ -146,6 +151,9 @@ def plan_targets(files: list[Path], source: Path, output: Path) -> dict[Path, Pa
     plan: dict[Path, Path] = {}
     claimed: dict[Path, Path] = {}
     for path in files:
+        # 输出与图集同目录时，已生成的 .webp 就是成品，再规划只会得到带序号的副本
+        if output == source and path.suffix.lower() in TARGET_SUFFIXES:
+            continue
         target = output / path.relative_to(source).with_suffix(".webp")
         # a.jpg 与 a.png 会撞到同一个目标名，追加序号避免相互覆盖
         if target in claimed:
@@ -241,12 +249,19 @@ def run(source: Path, output: Path, quality: int, max_edge: int) -> int:
     skipped = 0
     failed = 0
     for index, path in enumerate(files, 1):
-        target = plan[path]
-        # 已转换过的图片直接跳过，需要重转时删除输出目录里的对应文件
-        if target.exists():
+        target = plan.get(path)
+        # 计划里没有的文件是已生成的 .webp 成品，原样保留
+        if target is None:
             skipped += 1
-            print(f"{tagged('跳过', YELLOW)} {target.relative_to(output)} 已有输出")
+            print(f"{tagged('跳过', YELLOW)} {path.relative_to(source)} 已是目标格式")
             continue
+        # 输出不比原图旧就跳过；原图被替换过（时间更新）则重压
+        if not FORCE_REDO and target.exists():
+            if target.stat().st_mtime >= path.stat().st_mtime:
+                skipped += 1
+                print(f"{tagged('跳过', YELLOW)} {target.relative_to(output)} 已有输出")
+                continue
+            print(f"{tagged('刷新', CYAN)} {target.relative_to(output)} 原图已更新")
         before = path.stat().st_size
         try:
             convert_file(path, target, quality, max_edge)
