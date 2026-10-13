@@ -1,0 +1,9 @@
+[project]
+name = "image-convert"
+version = "0.1.0"
+description = "将图集批量转换为 WebP，限制长边以便预览"
+requires-python = ">=3.10"
+dependencies = ["pillow>=11.0"]
+
+[tool.uv]
+package = false
