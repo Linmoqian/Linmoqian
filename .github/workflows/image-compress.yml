@@ -1,0 +1,66 @@
+name: Compress Images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/images/**"
+  workflow_dispatch:
+
+# GITHUB_TOKEN 需要写权限才能把压缩结果提交回 main
+permissions:
+  contents: write
+
+# 连续推送时排队执行，避免两个任务同时 push 相互顶掉
+concurrency:
+  group: image-compress
+  cancel-in-progress: false
+
+jobs:
+  compress:
+    name: Compress assets/images
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: "tools/image-convert/uv.lock"
+
+      - name: Compress to WebP
+        working-directory: tools/image-convert
+        env:
+          IMG_SOURCE: ${{ github.workspace }}/assets/images
+          IMG_OUTPUT: ${{ github.workspace }}/assets/images
+          IMG_QUALITY: "82"
+          IMG_MAX_EDGE: "1920"
+          # 干净检出后文件时间不可靠，强制重压，再由 git 判断结果是否真的有变化
+          IMG_FORCE: "1"
+        run: |
+          # 锁文件优先；若锁文件记录的镜像不可达，回退到官方源重新解析（不回写仓库）
+          uv sync --frozen || {
+            uv lock --upgrade --default-index https://pypi.org/simple/
+            uv sync
+          }
+          uv run image_convert.py
+
+      - name: Summarize
+        run: |
+          {
+            echo "### assets/images"
+            echo '```text'
+            ls -lh assets/images
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images
+          git diff --staged --quiet || git commit -m "chore(assets): 自动压缩 assets/images 图片"
+          git push
